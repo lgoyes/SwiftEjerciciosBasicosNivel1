@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6AF6E12490219A001E83ED /* ejercicio6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AF6E02490219A001E83ED /* ejercicio6.swift */; };
 		0CE5645F24901D2900E3D3C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5645E24901D2900E3D3C8 /* main.swift */; };
 		0CE5646624901D8700E3D3C8 /* ejercicio1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5646524901D8700E3D3C8 /* ejercicio1.swift */; };
 		0CE5646824901DBF00E3D3C8 /* ejercicio2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5646724901DBF00E3D3C8 /* ejercicio2.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C6AF6E02490219A001E83ED /* ejercicio6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio6.swift; sourceTree = "<group>"; };
 		0CE5645B24901D2900E3D3C8 /* EjerciciosBasicosNivel1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EjerciciosBasicosNivel1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE5645E24901D2900E3D3C8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0CE5646524901D8700E3D3C8 /* ejercicio1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio1.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				0CE5646924901DE700E3D3C8 /* ejercicio3.swift */,
 				0CE5646B24901E7600E3D3C8 /* ejercicio4.swift */,
 				0CE5646D24901EDB00E3D3C8 /* ejercicio5.swift */,
+				0C6AF6E02490219A001E83ED /* ejercicio6.swift */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				0CE5645F24901D2900E3D3C8 /* main.swift in Sources */,
 				0CE5646E24901EDB00E3D3C8 /* ejercicio5.swift in Sources */,
 				0CE5646624901D8700E3D3C8 /* ejercicio1.swift in Sources */,
+				0C6AF6E12490219A001E83ED /* ejercicio6.swift in Sources */,
 				0CE5646A24901DE700E3D3C8 /* ejercicio3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
