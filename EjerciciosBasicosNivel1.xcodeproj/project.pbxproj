@@ -47,6 +47,7 @@
 		0C74677824910F0100245297 /* ejercicio7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio7.swift; sourceTree = "<group>"; };
 		0C74677A249114BF00245297 /* ejercicio8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio8.swift; sourceTree = "<group>"; };
 		0C74677C2491171A00245297 /* ejercicio9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio9.swift; sourceTree = "<group>"; };
+		0C74677E24911B1400245297 /* Ejercicios.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Ejercicios.md; sourceTree = "<group>"; };
 		0CE5645B24901D2900E3D3C8 /* EjerciciosBasicosNivel1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EjerciciosBasicosNivel1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE5645E24901D2900E3D3C8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0CE5646524901D8700E3D3C8 /* ejercicio1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio1.swift; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 				0C4A066A2490271C0094927E /* ejercicio14.swift */,
 				0C4A066C249028090094927E /* ejercicio15.swift */,
 				0CE5645E24901D2900E3D3C8 /* main.swift */,
+				0C74677E24911B1400245297 /* Ejercicios.md */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";

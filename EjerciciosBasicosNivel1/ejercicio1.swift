@@ -15,5 +15,5 @@ func ejercicio1() {
     let v = 5
     let t = 2
     let x = v * t
-    print( x )
+    print("Recorrio un total de \(x) metros")
 }

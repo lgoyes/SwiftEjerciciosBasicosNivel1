@@ -9,7 +9,7 @@
 import Foundation
 
 /*
- 16. Una oficina de seguros ha reunido datos concernientes a todos los accidentes de tránsito ocurridos en el área metropolitana en el último año.
+ 10. Una oficina de seguros ha reunido datos concernientes a todos los accidentes de tránsito ocurridos en el área metropolitana en el último año.
  Por cada conductor involucrado se toman los siguientes datos:
     1. Año de nacimiento
     2. Sexo (F: Femenino, M: Masculino)
@@ -26,7 +26,7 @@ import Foundation
  let registroDelCarro = [1, 2, 3, 4]
  */
 
-func ejercicio16() {
+func ejercicio10() {
     let anyosNacimientos = [1961,1967,1994,1996]
     let sexos = ["M", "F", "M", "F"]
     let registroDelCarro = [1, 2, 3, 4]
