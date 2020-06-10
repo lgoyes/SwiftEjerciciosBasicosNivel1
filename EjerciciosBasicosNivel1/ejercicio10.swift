@@ -1,5 +1,5 @@
 //
-//  ejercicio10.swift
+//  ejercicio16.swift
 //  EjerciciosBasicosNivel1
 //
 //  Created by Luis Goyes Garces on 9/06/20.
@@ -9,7 +9,7 @@
 import Foundation
 
 /*
- 10. Una oficina de seguros ha reunido datos concernientes a todos los accidentes de tránsito ocurridos en el área metropolitana en el último año.
+ 16. Una oficina de seguros ha reunido datos concernientes a todos los accidentes de tránsito ocurridos en el área metropolitana en el último año.
  Por cada conductor involucrado se toman los siguientes datos:
     1. Año de nacimiento
     2. Sexo (F: Femenino, M: Masculino)
@@ -26,7 +26,7 @@ import Foundation
  let registroDelCarro = [1, 2, 3, 4]
  */
 
-func ejercicio10() {
+func ejercicio16() {
     let anyosNacimientos = [1961,1967,1994,1996]
     let sexos = ["M", "F", "M", "F"]
     let registroDelCarro = [1, 2, 3, 4]

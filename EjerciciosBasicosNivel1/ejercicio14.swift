@@ -1,5 +1,5 @@
 //
-//  ejercicio8.swift
+//  ejercicio14.swift
 //  EjerciciosBasicosNivel1
 //
 //  Created by Luis Goyes Garces on 9/06/20.
@@ -9,10 +9,10 @@
 import Foundation
 
 /*:
- 8. Escriba un algoritmo que permita calcular la hipotenusa de un triángulo rectángulo utilizando el teorema de Pitágoras.
+ 14. Escriba un algoritmo que permita calcular la hipotenusa de un triángulo rectángulo utilizando el teorema de Pitágoras.
 */
 
-func ejercicio8() {
+func ejercicio14() {
     var cateto1 = 0.0
     var cateto2 = 0.0
     

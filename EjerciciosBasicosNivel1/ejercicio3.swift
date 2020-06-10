@@ -13,10 +13,10 @@
 func ejercicio3() {
     let n1 = 0.7
     let n2 = 4.1
-    let n3 = 5
+    let n3 = 5.0
     let n4 = 3.1
 
-    let promedio = (0.7 + 4.1 + 5 + 3.1) / 4
+    let promedio = (n1 + n2 + n3 + n4) / 4
 
     if (promedio >= 3) {
         print ("Aprobo")
