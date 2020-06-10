@@ -12,4 +12,4 @@
  A continuación se presentará una serie de ejercicios de algoritmos de programación, cuya dificultad irá aumentando, progresivamente. Se pueden resolver con cualquier lenguage de programación aunque aquí se presente la solución de los mismos usando el lenguaje de programación Swift.
 */
 
-ejercicio7_solucion1()
+ejercicio9()

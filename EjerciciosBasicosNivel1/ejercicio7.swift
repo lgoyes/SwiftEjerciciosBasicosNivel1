@@ -62,3 +62,46 @@ func ejercicio7_solucion1() {
     
     print("El estudiante \(nombre), identificado con CC. \(identificacion), obtuvo la nota definitiva: \(notaDefinitiva)")
 }
+
+
+func ejercicio7_solucion2() {
+    var nombre = ""
+    var identificacion = ""
+    var notas = [0.0, 0.0, 0.0]
+    
+    print("Buenos dias. Ingrese su nombre:")
+    if let string = readLine() {
+        nombre = string
+    }
+    
+    print("Ingrese su numero de documento:")
+    if let string = readLine() {
+        identificacion = string
+    }
+    
+    print("Ingrese la nota 1:")
+    if let string = readLine() {
+        if let number = Double(string) {
+            notas[0] = number
+        }
+    }
+    
+    print("Ingrese la nota 2:")
+    if let string = readLine() {
+        if let number = Double(string) {
+            notas[1] = number
+        }
+    }
+    
+    print("Ingrese la nota 3:")
+    if let string = readLine() {
+        if let number = Double(string) {
+            notas[2] = number
+        }
+    }
+    
+    
+    let notaDefinitiva: Double = notas[0] * 0.5 + notas[1] * 0.3 + notas[2] * 0.2
+    
+    print("El estudiante \(nombre), identificado con CC. \(identificacion), obtuvo la nota definitiva: \(notaDefinitiva)")
+}
