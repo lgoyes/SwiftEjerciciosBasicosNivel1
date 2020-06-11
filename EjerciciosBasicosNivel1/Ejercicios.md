@@ -78,3 +78,19 @@ let registroDelCarro = [1, 2, 3, 4]
  
  15. Frente a mi casa hay una máquina dispensadora que tiene 4 productos etiquetados con los números 1, 2, 3 y 4; cada uno con un valor de $500, $800, $300, y $900 pesos, respectivamente.
    * Defina un algoritmo que lea el número de producto que ingresa el usuario y que le muestre su precio. Si el producto ingresado no existe, debe informarlo.
+
+16. Construir un programa que, dada una temperatura en grados Kelvin, muestre su equivalente en grados Centígrados y Fahrenheit. Las fórmulas de conversión son:
+```
+C = K - 273.15
+F = (9/5) * C + 32
+```
+
+17. Leer 3 números enteros, cada uno de un dígito. Construir un número decimal en el cual, la parte entera sea el segundo número leído, y la parte decimal, el primer y tercer número leído. Por ejemplo, si el usuario ingresa los números 1, 2 y 3; el número resultante será 2.13.
+
+18. Calcular el número de horas de sueño de una persona, si se ingresa la hora a la que se va a la cama, la hora a la que se va a levantar, y se tiene en cuenta que la persona se demora 30 minutos en quedarse dormida. Por facilidad, trabaje solo con horas (sin minutos) y en formato de 24 horas.
+
+19. Con base en el ejercicio anterior, calcule el número de horas de sueño de una persona que tiene problemas para dormir. En este caso, existe una probabilidad `P=3/10` de que la persona se despierte durante la noche. Si se despierta, permanecerá en vela 2 horas.
+* Para el cálculo de la probabilidad `P=1/10`, busque un número aleatorio `N` entre 1 y 10. Como todos los números son equiprobables, `P=1/10` se obtiene cuando `N=1`. Es decir, `P=1/10` significa que la persona se va a levantar si `N=1`. En otro escenario, `P=2/10` significa que la persona se va a levantar si `N=1` o `N=2`.
+* Con base en el análisis anterior, `P=3/10` significa que la persona se va a levantar en esa noche si `N=1`, `N=2` o  `N=3`
+
+20. Cree un programa tendero. Se podrá elegir una de las siguientes dos opciones: (1) Añadir una bolsa de leche al carrito y (2) Contar productos del carrito y salir. El programa debe iterar indefinidamente, pidiendo al cliente que ingrese una opción, y debe salir/terminar cuando se ingresa la opción 2. Antes de salir, debe imprimir en pantalla el número de productos que se agregaron al carrito. Si el usuario ingresa una opción que el tendero no reconoce, debe repetir el ciclo (continue).

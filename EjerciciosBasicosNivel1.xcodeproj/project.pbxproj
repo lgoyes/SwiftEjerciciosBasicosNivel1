@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C00F1F724926C3700ACD95E /* ejercicio16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00F1F624926C3700ACD95E /* ejercicio16.swift */; };
+		0C00F1F924926DD000ACD95E /* ejercicio17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00F1F824926DD000ACD95E /* ejercicio17.swift */; };
+		0C00F1FB24926F1000ACD95E /* ejercicio18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00F1FA24926F1000ACD95E /* ejercicio18.swift */; };
+		0C00F1FD2492723900ACD95E /* ejercicio19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00F1FC2492723900ACD95E /* ejercicio19.swift */; };
+		0C00F1FF2492777000ACD95E /* ejercicio20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C00F1FE2492777000ACD95E /* ejercicio20.swift */; };
 		0C4A0669249026450094927E /* ejercicio13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A0668249026450094927E /* ejercicio13.swift */; };
 		0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066A2490271C0094927E /* ejercicio14.swift */; };
 		0C4A066D249028090094927E /* ejercicio15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066C249028090094927E /* ejercicio15.swift */; };
@@ -38,6 +43,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C00F1F624926C3700ACD95E /* ejercicio16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio16.swift; sourceTree = "<group>"; };
+		0C00F1F824926DD000ACD95E /* ejercicio17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio17.swift; sourceTree = "<group>"; };
+		0C00F1FA24926F1000ACD95E /* ejercicio18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio18.swift; sourceTree = "<group>"; };
+		0C00F1FC2492723900ACD95E /* ejercicio19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio19.swift; sourceTree = "<group>"; };
+		0C00F1FE2492777000ACD95E /* ejercicio20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio20.swift; sourceTree = "<group>"; };
 		0C4A0668249026450094927E /* ejercicio13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio13.swift; sourceTree = "<group>"; };
 		0C4A066A2490271C0094927E /* ejercicio14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio14.swift; sourceTree = "<group>"; };
 		0C4A066C249028090094927E /* ejercicio15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio15.swift; sourceTree = "<group>"; };
@@ -103,8 +113,13 @@
 				0C4A0668249026450094927E /* ejercicio13.swift */,
 				0C4A066A2490271C0094927E /* ejercicio14.swift */,
 				0C4A066C249028090094927E /* ejercicio15.swift */,
-				0CE5645E24901D2900E3D3C8 /* main.swift */,
+				0C00F1F624926C3700ACD95E /* ejercicio16.swift */,
+				0C00F1F824926DD000ACD95E /* ejercicio17.swift */,
+				0C00F1FA24926F1000ACD95E /* ejercicio18.swift */,
+				0C00F1FC2492723900ACD95E /* ejercicio19.swift */,
+				0C00F1FE2492777000ACD95E /* ejercicio20.swift */,
 				0C74677E24911B1400245297 /* Ejercicios.md */,
+				0CE5645E24901D2900E3D3C8 /* main.swift */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";
@@ -170,15 +185,20 @@
 				0C4A066F249029280094927E /* ejercicio10.swift in Sources */,
 				0C74677D2491171A00245297 /* ejercicio9.swift in Sources */,
 				0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */,
+				0C00F1FD2492723900ACD95E /* ejercicio19.swift in Sources */,
 				0C74677724910DD100245297 /* ejercicio6.swift in Sources */,
 				0CE5646824901DBF00E3D3C8 /* ejercicio2.swift in Sources */,
 				0CE5646C24901E7600E3D3C8 /* ejercicio4.swift in Sources */,
 				0CE5645F24901D2900E3D3C8 /* main.swift in Sources */,
 				0C74677B249114BF00245297 /* ejercicio8.swift in Sources */,
+				0C00F1FF2492777000ACD95E /* ejercicio20.swift in Sources */,
 				0CE5646E24901EDB00E3D3C8 /* ejercicio11.swift in Sources */,
 				0CE5646624901D8700E3D3C8 /* ejercicio1.swift in Sources */,
 				0C6AF6E12490219A001E83ED /* ejercicio12.swift in Sources */,
+				0C00F1F924926DD000ACD95E /* ejercicio17.swift in Sources */,
 				0C74677924910F0100245297 /* ejercicio7.swift in Sources */,
+				0C00F1FB24926F1000ACD95E /* ejercicio18.swift in Sources */,
+				0C00F1F724926C3700ACD95E /* ejercicio16.swift in Sources */,
 				0CE5646A24901DE700E3D3C8 /* ejercicio3.swift in Sources */,
 				0CE8169024910BB60017AFCF /* ejercicio5.swift in Sources */,
 				0C4A066D249028090094927E /* ejercicio15.swift in Sources */,
