@@ -94,3 +94,11 @@ F = (9/5) * C + 32
 * Con base en el análisis anterior, `P=3/10` significa que la persona se va a levantar en esa noche si `N=1`, `N=2` o  `N=3`
 
 20. Cree un programa tendero. Se podrá elegir una de las siguientes dos opciones: (1) Añadir una bolsa de leche al carrito y (2) Contar productos del carrito y salir. El programa debe iterar indefinidamente, pidiendo al cliente que ingrese una opción, y debe salir/terminar cuando se ingresa la opción 2. Antes de salir, debe imprimir en pantalla el número de productos que se agregaron al carrito. Si el usuario ingresa una opción que el tendero no reconoce, debe repetir el ciclo (continue).
+
+21. Haga un algoritmo que pida un punto `(x,y)` al usuario (en dos pasos) y determine si pertenece o no a la recta `y=2x-3`.
+
+22. El un almacén que venden balones se ofrecen descuentos de acuerdo a la cantidad que se compre. Si el cliente compra 3 o menos balones, no hay descuento; si compra entre 4 y 6, se da un descuento del 20%; y si se compran más de 6, se da un descuento del 25%. Haga un algoritmo que determine el valor total a pagar, dado el precio unitario de un balón y la cantidad de balones a comprar.
+
+23. Haga un algoritmo que pida dos números `n1` y `n2` y determine si `n2` es múltiplo de `n1`.
+
+24. Haga un algoritmo que determine si un año es bisiesto o no. Tenga en cuenta que para que un año sea bisiesto, éste debe ser múltiplo de 4 y, además, no puede ser múltiplo de 100; a no ser que sea también múltiplo de 400.
