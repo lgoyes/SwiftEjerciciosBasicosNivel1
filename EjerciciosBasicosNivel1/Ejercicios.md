@@ -102,3 +102,17 @@ F = (9/5) * C + 32
 23. Haga un algoritmo que pida dos números `n1` y `n2` y determine si `n2` es múltiplo de `n1`.
 
 24. Haga un algoritmo que determine si un año es bisiesto o no. Tenga en cuenta que para que un año sea bisiesto, éste debe ser múltiplo de 4 y, además, no puede ser múltiplo de 100; a no ser que sea también múltiplo de 400.
+
+25. Extienda el algoritmo del año bisiesto para que, en caso de que el año no sea bisiesto, diga cuál sería el siguiente año bisiesto.
+
+26. Haga un algoritmo que lea un número entero `n` y que imprima todos los múltiplos de `3` hasta `n`.
+
+27. Escriba un programa que imprima la sumatoria de los múltiplos de `3` y `5` que sean menores que `N`, ingresado por el usuario. Por ejemplo, si el usuario ingresa el valor `N=17`, entonces los múltiplos de
+`3` y `5` entre `1` y `17` son `3`, `5`, `6`, `9`, `10`, `12`, y`15`, por lo tanto, el programa imprimirá `60`.
+
+28. Haga un algoritmo que calcule el factorial de un número ingresado por el usuario.
+
+29. En un experimento se deben tomar medidas de temperatura cada hora por un día completo. Haga
+un algoritmo que lea las medidas y determine la temperatura más alta, la más baja y la promedio.
+
+30. Haga un algoritmo que reciba números repetidamente y que en cada iteración muestre el promedio de los números impares ingresados hasta el momento. El algoritmo debe finalizar cuando el número ingresado sea el cero.
