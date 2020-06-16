@@ -116,3 +116,13 @@ F = (9/5) * C + 32
 un algoritmo que lea las medidas y determine la temperatura más alta, la más baja y la promedio.
 
 30. Haga un algoritmo que reciba números repetidamente y que en cada iteración muestre el promedio de los números impares ingresados hasta el momento. El algoritmo debe finalizar cuando el número ingresado sea el cero.
+
+31. Haga un algoritmo que muestre todos los divisores de un número entero ingresado y que diga cuántos divisores tiene.
+
+32. Haga el diagrama de flujo de un algoritmo que encuentre el máximo común divisor (MCD) entre dos números `A` y `B` ingresados por el usuario. El MCD es el número más grande que divide en forma exacta tanto a `A` como a `B`. Si el MCD resulta ser 1, el algoritmo deberá imprimir "No existe", de lo contrario deberá imprimir el MCD encontrado.
+
+33. Haga un algoritmo que imprima los primeros N términos de la serie de Fibonacci, donde N es ingresado por el usuario. Esta serie inicia con los elementos 0 y 1, y cada nuevo término se calcula como la suma de los dos anteriores. Así, la serie sería 0, 1, 1, 2, 3, 5...
+
+34. Haga un algoritmo que muestre los primeros N términos de la serie: 10, 11, 20, 21, 30, 31, 40, 41, 50, 51...
+
+
