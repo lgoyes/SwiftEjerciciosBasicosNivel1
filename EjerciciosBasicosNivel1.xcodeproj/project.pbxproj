@@ -16,6 +16,9 @@
 		0C3287672498F86100C62ED5 /* ejercicio32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3287662498F86100C62ED5 /* ejercicio32.swift */; };
 		0C3287692498FA0F00C62ED5 /* ejercicio33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3287682498FA0F00C62ED5 /* ejercicio33.swift */; };
 		0C32876B2498FC1900C62ED5 /* ejercicio34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C32876A2498FC1900C62ED5 /* ejercicio34.swift */; };
+		0C496B7C249A2B45008CA1A7 /* ejercicio35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C496B7B249A2B45008CA1A7 /* ejercicio35.swift */; };
+		0C496B7E249A2D6B008CA1A7 /* ejercicio36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C496B7D249A2D6B008CA1A7 /* ejercicio36.swift */; };
+		0C496B80249A2F02008CA1A7 /* ejercicio37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C496B7F249A2F02008CA1A7 /* ejercicio37.swift */; };
 		0C4A0669249026450094927E /* ejercicio13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A0668249026450094927E /* ejercicio13.swift */; };
 		0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066A2490271C0094927E /* ejercicio14.swift */; };
 		0C4A066D249028090094927E /* ejercicio15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066C249028090094927E /* ejercicio15.swift */; };
@@ -66,6 +69,9 @@
 		0C3287662498F86100C62ED5 /* ejercicio32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio32.swift; sourceTree = "<group>"; };
 		0C3287682498FA0F00C62ED5 /* ejercicio33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio33.swift; sourceTree = "<group>"; };
 		0C32876A2498FC1900C62ED5 /* ejercicio34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio34.swift; sourceTree = "<group>"; };
+		0C496B7B249A2B45008CA1A7 /* ejercicio35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio35.swift; sourceTree = "<group>"; };
+		0C496B7D249A2D6B008CA1A7 /* ejercicio36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio36.swift; sourceTree = "<group>"; };
+		0C496B7F249A2F02008CA1A7 /* ejercicio37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio37.swift; sourceTree = "<group>"; };
 		0C4A0668249026450094927E /* ejercicio13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio13.swift; sourceTree = "<group>"; };
 		0C4A066A2490271C0094927E /* ejercicio14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio14.swift; sourceTree = "<group>"; };
 		0C4A066C249028090094927E /* ejercicio15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio15.swift; sourceTree = "<group>"; };
@@ -160,6 +166,9 @@
 				0C3287662498F86100C62ED5 /* ejercicio32.swift */,
 				0C3287682498FA0F00C62ED5 /* ejercicio33.swift */,
 				0C32876A2498FC1900C62ED5 /* ejercicio34.swift */,
+				0C496B7B249A2B45008CA1A7 /* ejercicio35.swift */,
+				0C496B7D249A2D6B008CA1A7 /* ejercicio36.swift */,
+				0C496B7F249A2F02008CA1A7 /* ejercicio37.swift */,
 				0C74677E24911B1400245297 /* Ejercicios.md */,
 				0CE5645E24901D2900E3D3C8 /* main.swift */,
 			);
@@ -231,6 +240,7 @@
 				0C3287672498F86100C62ED5 /* ejercicio32.swift in Sources */,
 				0CAFF6132496716100EF5D8D /* ejercicio28.swift in Sources */,
 				0C74677D2491171A00245297 /* ejercicio9.swift in Sources */,
+				0C496B80249A2F02008CA1A7 /* ejercicio37.swift in Sources */,
 				0CB0D72E2493DADB00D3814F /* ejercicio21.swift in Sources */,
 				0CAFF6172496758D00EF5D8D /* ejercicio30.swift in Sources */,
 				0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */,
@@ -249,6 +259,8 @@
 				0C6AF6E12490219A001E83ED /* ejercicio12.swift in Sources */,
 				0C3287692498FA0F00C62ED5 /* ejercicio33.swift in Sources */,
 				0CAFF60F24966EDB00EF5D8D /* ejercicio26.swift in Sources */,
+				0C496B7E249A2D6B008CA1A7 /* ejercicio36.swift in Sources */,
+				0C496B7C249A2B45008CA1A7 /* ejercicio35.swift in Sources */,
 				0C00F1F924926DD000ACD95E /* ejercicio17.swift in Sources */,
 				0C74677924910F0100245297 /* ejercicio7.swift in Sources */,
 				0C00F1FB24926F1000ACD95E /* ejercicio18.swift in Sources */,

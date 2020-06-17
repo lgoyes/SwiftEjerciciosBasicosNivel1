@@ -122,7 +122,17 @@ un algoritmo que lea las medidas y determine la temperatura más alta, la más b
 32. Haga el diagrama de flujo de un algoritmo que encuentre el máximo común divisor (MCD) entre dos números `A` y `B` ingresados por el usuario. El MCD es el número más grande que divide en forma exacta tanto a `A` como a `B`. Si el MCD resulta ser 1, el algoritmo deberá imprimir "No existe", de lo contrario deberá imprimir el MCD encontrado.
 
 33. Haga un algoritmo que imprima los primeros N términos de la serie de Fibonacci, donde N es ingresado por el usuario. Esta serie inicia con los elementos 0 y 1, y cada nuevo término se calcula como la suma de los dos anteriores. Así, la serie sería 0, 1, 1, 2, 3, 5...
+- Tenga en cuenta que, como no estamos usando funciones, debe organizar la serie en un arreglo, y considerar las posiciones previamente calculadas.
 
 34. Haga un algoritmo que muestre los primeros N términos de la serie: 10, 11, 20, 21, 30, 31, 40, 41, 50, 51...
 
+- A continuación hay una ayuda que servirá en caso de sentirse estancado con el ejercicio.
+Ayuda: Note que en cada posicion impar (1, 3, 5, 7, ...) se agrega 10 al numero de la serie antes acumulado; y que si la posicion es par, se agrega un 1 más, que no aparece en la siguiente posición.
 
+35. Haga un algoritmo que le muestre al usuario la tabla de multiplicación de un número entero ingresado por el usuario (`N`). Además, el usuario también debe ingresar el límite (`L`) de la tabla de multiplicación. Por ejemplo, si el usuario ingresa `3` y `4`, el algoritmo debe imprimir: `3`, `6`, `9`, `12`.
+
+36. Construir un programa que determine con un mensaje si un número ingresado es primo o no.
+
+37. Realice un algoritmo que diga si un número ingresado es perfecto o no. Un número perfecto es un número que es igual a la suma de sus divisores propios positivos. De esta forma, 6 es un número perfecto porque sus divisores propios son 1, 2 y 3; y 6 = 1 + 2 + 3.
+
+38. (33) Haga un algoritmo que repetidamente capture números que el usuario ingrese (uno por uno) hasta que el número ingresado sea el cero. Cuando eso suceda, el algoritmo debe mostrar en pantalla los últimos dos números que el usuario había ingresado.
