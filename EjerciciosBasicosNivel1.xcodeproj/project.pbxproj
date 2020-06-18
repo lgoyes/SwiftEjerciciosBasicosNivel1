@@ -23,6 +23,9 @@
 		0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066A2490271C0094927E /* ejercicio14.swift */; };
 		0C4A066D249028090094927E /* ejercicio15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066C249028090094927E /* ejercicio15.swift */; };
 		0C4A066F249029280094927E /* ejercicio10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A066E249029280094927E /* ejercicio10.swift */; };
+		0C4ED7C8249B798600391248 /* ejercicio38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4ED7C7249B798600391248 /* ejercicio38.swift */; };
+		0C4ED7CA249B7B7700391248 /* ejercicio39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4ED7C9249B7B7700391248 /* ejercicio39.swift */; };
+		0C4ED7CC249B7FF600391248 /* ejercicio40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4ED7CB249B7FF600391248 /* ejercicio40.swift */; };
 		0C6AF6E12490219A001E83ED /* ejercicio12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AF6E02490219A001E83ED /* ejercicio12.swift */; };
 		0C74677724910DD100245297 /* ejercicio6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677624910DD100245297 /* ejercicio6.swift */; };
 		0C74677924910F0100245297 /* ejercicio7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677824910F0100245297 /* ejercicio7.swift */; };
@@ -76,6 +79,9 @@
 		0C4A066A2490271C0094927E /* ejercicio14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio14.swift; sourceTree = "<group>"; };
 		0C4A066C249028090094927E /* ejercicio15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio15.swift; sourceTree = "<group>"; };
 		0C4A066E249029280094927E /* ejercicio10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio10.swift; sourceTree = "<group>"; };
+		0C4ED7C7249B798600391248 /* ejercicio38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio38.swift; sourceTree = "<group>"; };
+		0C4ED7C9249B7B7700391248 /* ejercicio39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio39.swift; sourceTree = "<group>"; };
+		0C4ED7CB249B7FF600391248 /* ejercicio40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio40.swift; sourceTree = "<group>"; };
 		0C6AF6E02490219A001E83ED /* ejercicio12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio12.swift; sourceTree = "<group>"; };
 		0C74677624910DD100245297 /* ejercicio6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio6.swift; sourceTree = "<group>"; };
 		0C74677824910F0100245297 /* ejercicio7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio7.swift; sourceTree = "<group>"; };
@@ -169,6 +175,9 @@
 				0C496B7B249A2B45008CA1A7 /* ejercicio35.swift */,
 				0C496B7D249A2D6B008CA1A7 /* ejercicio36.swift */,
 				0C496B7F249A2F02008CA1A7 /* ejercicio37.swift */,
+				0C4ED7C7249B798600391248 /* ejercicio38.swift */,
+				0C4ED7C9249B7B7700391248 /* ejercicio39.swift */,
+				0C4ED7CB249B7FF600391248 /* ejercicio40.swift */,
 				0C74677E24911B1400245297 /* Ejercicios.md */,
 				0CE5645E24901D2900E3D3C8 /* main.swift */,
 			);
@@ -239,10 +248,12 @@
 				0CAFF61124966FD000EF5D8D /* ejercicio27.swift in Sources */,
 				0C3287672498F86100C62ED5 /* ejercicio32.swift in Sources */,
 				0CAFF6132496716100EF5D8D /* ejercicio28.swift in Sources */,
+				0C4ED7CC249B7FF600391248 /* ejercicio40.swift in Sources */,
 				0C74677D2491171A00245297 /* ejercicio9.swift in Sources */,
 				0C496B80249A2F02008CA1A7 /* ejercicio37.swift in Sources */,
 				0CB0D72E2493DADB00D3814F /* ejercicio21.swift in Sources */,
 				0CAFF6172496758D00EF5D8D /* ejercicio30.swift in Sources */,
+				0C4ED7C8249B798600391248 /* ejercicio38.swift in Sources */,
 				0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */,
 				0C00F1FD2492723900ACD95E /* ejercicio19.swift in Sources */,
 				0C74677724910DD100245297 /* ejercicio6.swift in Sources */,
@@ -269,6 +280,7 @@
 				0CE8169024910BB60017AFCF /* ejercicio5.swift in Sources */,
 				0C3287652498DE1600C62ED5 /* ejercicio31.swift in Sources */,
 				0C32876B2498FC1900C62ED5 /* ejercicio34.swift in Sources */,
+				0C4ED7CA249B7B7700391248 /* ejercicio39.swift in Sources */,
 				0C4A066D249028090094927E /* ejercicio15.swift in Sources */,
 				0C4A0669249026450094927E /* ejercicio13.swift in Sources */,
 			);

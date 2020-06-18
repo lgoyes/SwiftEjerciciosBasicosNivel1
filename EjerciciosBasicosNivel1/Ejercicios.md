@@ -135,4 +135,11 @@ Ayuda: Note que en cada posicion impar (1, 3, 5, 7, ...) se agrega 10 al numero 
 
 37. Realice un algoritmo que diga si un número ingresado es perfecto o no. Un número perfecto es un número que es igual a la suma de sus divisores propios positivos. De esta forma, 6 es un número perfecto porque sus divisores propios son 1, 2 y 3; y 6 = 1 + 2 + 3.
 
-38. (33) Haga un algoritmo que repetidamente capture números que el usuario ingrese (uno por uno) hasta que el número ingresado sea el cero. Cuando eso suceda, el algoritmo debe mostrar en pantalla los últimos dos números que el usuario había ingresado.
+38. Haga un algoritmo que repetidamente capture números que el usuario ingrese (uno por uno) hasta que el número ingresado sea el cero. Cuando eso suceda, el algoritmo debe mostrar en pantalla los últimos dos números que el usuario había ingresado.
+
+39. Realice un algoritmo que capture N números enteros positivos que el usuario ingrese, con N>=2. El algoritmo deberá imprimir la sumatoria de todos los números, el mayor de los números pares ingresados y el menor de los impares. Deberá pedir, entonces, el número N, seguido de los otro números.
+Recuerde hacer las validaciones respectivas.
+
+40. (35) Haga un algoritmo que repetidamente capture números enteros positivos que el usuario ingrese, hasta que el número ingresado sea -1. Cuando esto suceda, el programa debe imprimir en pantalla la suma de todos los números ingresados, exceptuando: el -1, los múltiplos de 3 y los múltiplos de 7.
+Note que no hay límite de números predefinido. La captura de números se detiene cuando se integrese -1.
+

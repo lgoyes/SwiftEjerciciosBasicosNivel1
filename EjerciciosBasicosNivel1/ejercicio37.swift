@@ -44,6 +44,5 @@ func ejercicio37() {
         } else {
             print("\(numeroN) NO es un número perfecto.")
         }
-        
     }
 }
