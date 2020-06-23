@@ -140,6 +140,16 @@ Ayuda: Note que en cada posicion impar (1, 3, 5, 7, ...) se agrega 10 al numero 
 39. Realice un algoritmo que capture N números enteros positivos que el usuario ingrese, con N>=2. El algoritmo deberá imprimir la sumatoria de todos los números, el mayor de los números pares ingresados y el menor de los impares. Deberá pedir, entonces, el número N, seguido de los otro números.
 Recuerde hacer las validaciones respectivas.
 
-40. (35) Haga un algoritmo que repetidamente capture números enteros positivos que el usuario ingrese, hasta que el número ingresado sea -1. Cuando esto suceda, el programa debe imprimir en pantalla la suma de todos los números ingresados, exceptuando: el -1, los múltiplos de 3 y los múltiplos de 7.
+40. Haga un algoritmo que repetidamente capture números enteros positivos que el usuario ingrese, hasta que el número ingresado sea -1. Cuando esto suceda, el programa debe imprimir en pantalla la suma de todos los números ingresados, exceptuando: el -1, los múltiplos de 3 y los múltiplos de 7.
 Note que no hay límite de números predefinido. La captura de números se detiene cuando se integrese -1.
 
+41. En una central de emergencias, cuando se recibe una llamada es necesario determinar, de las N ambulancias disponibles, cuál es la más cercana al lugar de la emergencia. Dadas las coordenadas cartesianas de una emergencia y la ubicación de las N ambulancias, determine cuál es la distancia de la ambulancia más cercana.
+
+- Antes de empezar el programa pida al usuario información de las ambulancias:
+   1. Número N de ambulancias
+   2. Placa de la ambulancia (Valide que tenga 3 caracteres, sin importar si son números o letras)
+   
+- Cree un menu:
+   1. Ingresar Ubicación (x,y) de cada ambulancia
+   2. Ingresar Ubicación (x,y) del accidente y calcular ambulancia más cercana
+   3. Salir

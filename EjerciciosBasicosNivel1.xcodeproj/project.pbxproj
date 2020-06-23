@@ -26,6 +26,7 @@
 		0C4ED7C8249B798600391248 /* ejercicio38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4ED7C7249B798600391248 /* ejercicio38.swift */; };
 		0C4ED7CA249B7B7700391248 /* ejercicio39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4ED7C9249B7B7700391248 /* ejercicio39.swift */; };
 		0C4ED7CC249B7FF600391248 /* ejercicio40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4ED7CB249B7FF600391248 /* ejercicio40.swift */; };
+		0C5AC0A224A212B6001D3114 /* ejercicio41.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AC0A124A212B6001D3114 /* ejercicio41.swift */; };
 		0C6AF6E12490219A001E83ED /* ejercicio12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6AF6E02490219A001E83ED /* ejercicio12.swift */; };
 		0C74677724910DD100245297 /* ejercicio6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677624910DD100245297 /* ejercicio6.swift */; };
 		0C74677924910F0100245297 /* ejercicio7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677824910F0100245297 /* ejercicio7.swift */; };
@@ -82,6 +83,7 @@
 		0C4ED7C7249B798600391248 /* ejercicio38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio38.swift; sourceTree = "<group>"; };
 		0C4ED7C9249B7B7700391248 /* ejercicio39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio39.swift; sourceTree = "<group>"; };
 		0C4ED7CB249B7FF600391248 /* ejercicio40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio40.swift; sourceTree = "<group>"; };
+		0C5AC0A124A212B6001D3114 /* ejercicio41.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio41.swift; sourceTree = "<group>"; };
 		0C6AF6E02490219A001E83ED /* ejercicio12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio12.swift; sourceTree = "<group>"; };
 		0C74677624910DD100245297 /* ejercicio6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio6.swift; sourceTree = "<group>"; };
 		0C74677824910F0100245297 /* ejercicio7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio7.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				0C4ED7CB249B7FF600391248 /* ejercicio40.swift */,
 				0C74677E24911B1400245297 /* Ejercicios.md */,
 				0CE5645E24901D2900E3D3C8 /* main.swift */,
+				0C5AC0A124A212B6001D3114 /* ejercicio41.swift */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				0CE5646824901DBF00E3D3C8 /* ejercicio2.swift in Sources */,
 				0CE5646C24901E7600E3D3C8 /* ejercicio4.swift in Sources */,
 				0CE5645F24901D2900E3D3C8 /* main.swift in Sources */,
+				0C5AC0A224A212B6001D3114 /* ejercicio41.swift in Sources */,
 				0C74677B249114BF00245297 /* ejercicio8.swift in Sources */,
 				0C00F1FF2492777000ACD95E /* ejercicio20.swift in Sources */,
 				0CE5646E24901EDB00E3D3C8 /* ejercicio11.swift in Sources */,
