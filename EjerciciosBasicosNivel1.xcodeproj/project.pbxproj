@@ -32,6 +32,8 @@
 		0C74677924910F0100245297 /* ejercicio7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677824910F0100245297 /* ejercicio7.swift */; };
 		0C74677B249114BF00245297 /* ejercicio8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677A249114BF00245297 /* ejercicio8.swift */; };
 		0C74677D2491171A00245297 /* ejercicio9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74677C2491171A00245297 /* ejercicio9.swift */; };
+		0C75D57824ABBFD200905767 /* ejercicio42.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75D57724ABBFD200905767 /* ejercicio42.swift */; };
+		0C75D57A24ABC1F600905767 /* ejercicio43.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75D57924ABC1F600905767 /* ejercicio43.swift */; };
 		0CAFF60D24966C1A00EF5D8D /* ejercicio25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF60C24966C1A00EF5D8D /* ejercicio25.swift */; };
 		0CAFF60F24966EDB00EF5D8D /* ejercicio26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF60E24966EDB00EF5D8D /* ejercicio26.swift */; };
 		0CAFF61124966FD000EF5D8D /* ejercicio27.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFF61024966FD000EF5D8D /* ejercicio27.swift */; };
@@ -90,6 +92,8 @@
 		0C74677A249114BF00245297 /* ejercicio8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio8.swift; sourceTree = "<group>"; };
 		0C74677C2491171A00245297 /* ejercicio9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio9.swift; sourceTree = "<group>"; };
 		0C74677E24911B1400245297 /* Ejercicios.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Ejercicios.md; sourceTree = "<group>"; };
+		0C75D57724ABBFD200905767 /* ejercicio42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio42.swift; sourceTree = "<group>"; };
+		0C75D57924ABC1F600905767 /* ejercicio43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio43.swift; sourceTree = "<group>"; };
 		0CAFF60C24966C1A00EF5D8D /* ejercicio25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio25.swift; sourceTree = "<group>"; };
 		0CAFF60E24966EDB00EF5D8D /* ejercicio26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio26.swift; sourceTree = "<group>"; };
 		0CAFF61024966FD000EF5D8D /* ejercicio27.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio27.swift; sourceTree = "<group>"; };
@@ -180,9 +184,11 @@
 				0C4ED7C7249B798600391248 /* ejercicio38.swift */,
 				0C4ED7C9249B7B7700391248 /* ejercicio39.swift */,
 				0C4ED7CB249B7FF600391248 /* ejercicio40.swift */,
+				0C5AC0A124A212B6001D3114 /* ejercicio41.swift */,
+				0C75D57724ABBFD200905767 /* ejercicio42.swift */,
 				0C74677E24911B1400245297 /* Ejercicios.md */,
 				0CE5645E24901D2900E3D3C8 /* main.swift */,
-				0C5AC0A124A212B6001D3114 /* ejercicio41.swift */,
+				0C75D57924ABC1F600905767 /* ejercicio43.swift */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 				0CAFF6172496758D00EF5D8D /* ejercicio30.swift in Sources */,
 				0C4ED7C8249B798600391248 /* ejercicio38.swift in Sources */,
 				0C4A066B2490271C0094927E /* ejercicio14.swift in Sources */,
+				0C75D57824ABBFD200905767 /* ejercicio42.swift in Sources */,
 				0C00F1FD2492723900ACD95E /* ejercicio19.swift in Sources */,
 				0C74677724910DD100245297 /* ejercicio6.swift in Sources */,
 				0CB0D7322493E38B00D3814F /* ejercicio23.swift in Sources */,
@@ -272,6 +279,7 @@
 				0CE5646624901D8700E3D3C8 /* ejercicio1.swift in Sources */,
 				0CB0D7302493DC7500D3814F /* ejercicio22.swift in Sources */,
 				0C6AF6E12490219A001E83ED /* ejercicio12.swift in Sources */,
+				0C75D57A24ABC1F600905767 /* ejercicio43.swift in Sources */,
 				0C3287692498FA0F00C62ED5 /* ejercicio33.swift in Sources */,
 				0CAFF60F24966EDB00EF5D8D /* ejercicio26.swift in Sources */,
 				0C496B7E249A2D6B008CA1A7 /* ejercicio36.swift in Sources */,

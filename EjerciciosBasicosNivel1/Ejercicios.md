@@ -153,3 +153,30 @@ Note que no hay límite de números predefinido. La captura de números se detie
    1. Ingresar Ubicación (x,y) de cada ambulancia
    2. Ingresar Ubicación (x,y) del accidente y calcular ambulancia más cercana
    3. Salir
+
+42. Haga un algoritmo que dibuje en la pantalla un triángulo de base y altura N, como se indica en el siguiente ejemplo para `N=5`:
+
+```
+OOOOO
+OOOO
+OOO
+OO
+O
+```
+
++ Resuelva el ejercicio imprimiendo un mensaje por línea
++ Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)
+
+43. Haga un algoritmo que dibuje en pantalla un triágulo, como se indica en el siguiente ejemplo para `N=4`:
+
+```
+O
+OO
+OOO
+OOOO
+OOO
+OO
+O
+```
++ Resuelva el ejercicio imprimiendo un mensaje por línea
++ Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)

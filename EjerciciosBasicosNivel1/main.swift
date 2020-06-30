@@ -6,4 +6,4 @@
 //  Copyright © 2020 Luis Goyes Garces. All rights reserved.
 //
 
-ejercicio41()
+ejercicio43()
