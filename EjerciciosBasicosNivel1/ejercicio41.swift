@@ -22,8 +22,10 @@ import Foundation
 func ejercicio41() {
     var mensaje = ""
     var placasDeAmbulancias = [String]()
-    var ubicacionAccidente: (Double, Double) = (0,0)
+    var ubicacionAccidente: (Double, Double) = (0, 0)
     var ubicacionAmbulancias = [(Double, Double)]()
+    var menorDistanciaHastaElAccidente = -1.0
+    var ambulanciaMasCercana = -1
 
     print("Ingrese el número de ambulancias:")
     mensaje = readLine()!
@@ -36,9 +38,11 @@ func ejercicio41() {
         validacion: while true {
             print("Ingrese la placa de la ambulancia número \(contadorAmbulancias):")
             mensaje = readLine()!
-            if (mensaje.count == 6) {
+            if (mensaje.count == 3) {
                 placasDeAmbulancias.append(mensaje)
                 break validacion
+            } else {
+                print("Formato de placa inválida. Tiene que ser de 3 caracteres.")
             }
         }
     }
@@ -59,46 +63,80 @@ func ejercicio41() {
 
         switch opcion {
         case 1:
+            ubicacionAmbulancias = []
             for indiceAmbulancia in (0..<numeroDeAmbulancias) {
-                ubicacionAmbulancias = []
-                
-                print("Ingrese la posicion X de la ambulancia número \(indiceAmbulancia+1) de placa \(placasDeAmbulancias[indiceAmbulancia]):")
-                mensaje = readLine()!
-                guard let posicionX = Double(mensaje) else {
-                    print("El texto ingresado no puede convertirse a Double")
-                    return
+
+                capturaPosicionAmbulancia: while true {
+                    print("Ingrese la posicion X,Y de la ambulancia número \(indiceAmbulancia + 1) de placa \(placasDeAmbulancias[indiceAmbulancia]):")
+                    mensaje = readLine()!
+                    let mensajeDivididoPorComa = mensaje.split(separator: ",")
+                    if mensajeDivididoPorComa.count != 2 {
+                        continue capturaPosicionAmbulancia
+                    }
+
+                    let posicionXString = mensajeDivididoPorComa[0].trimmingCharacters(in: .whitespaces)
+                    let posicionYString = mensajeDivididoPorComa[1].trimmingCharacters(in: .whitespaces)
+
+                    guard let posicionX = Double(posicionXString) else {
+                        print("Error al convertir la parte X de la posicion en Double")
+                        continue capturaPosicionAmbulancia
+                    }
+
+                    guard let posicionY = Double(posicionYString) else {
+                        print("Error al convertir la parte y de la posicion en Double")
+                        continue capturaPosicionAmbulancia
+                    }
+
+                    let posicionAmbulancia = (posicionX, posicionY)
+
+                    ubicacionAmbulancias.append(posicionAmbulancia)
+                    break capturaPosicionAmbulancia
                 }
-                
-                print("Ingrese la posicion Y de la ambulancia número \(indiceAmbulancia+1) de placa \(placasDeAmbulancias[indiceAmbulancia]):")
-                mensaje = readLine()!
-                guard let posicionY = Double(mensaje) else {
-                    print("El texto ingresado no puede convertirse a Double")
-                    return
-                }
-                
-                let posicionAmbulancia = (posicionX, posicionY)
-                
-                ubicacionAmbulancias.append(posicionAmbulancia)
             }
         case 2:
-            print("Ingrese la posicion X del accidente:")
-            mensaje = readLine()!
-            guard let posicionX = Double(mensaje) else {
-                print("El texto ingresado no puede convertirse a Double")
-                return
+            capturaPosicionAccidente: while true {
+                print("Ingrese la posicion X,Y del accidente:")
+                mensaje = readLine()!
+                let mensajeDivididoPorComa = mensaje.split(separator: ",")
+                if mensajeDivididoPorComa.count != 2 {
+                    continue capturaPosicionAccidente
+                }
+
+                let posicionXString = mensajeDivididoPorComa[0].trimmingCharacters(in: .whitespaces)
+                let posicionYString = mensajeDivididoPorComa[1].trimmingCharacters(in: .whitespaces)
+
+                guard let posicionX = Double(posicionXString) else {
+                    print("Error al convertir la parte X de la posicion en Double")
+                    continue capturaPosicionAccidente
+                }
+
+                guard let posicionY = Double(posicionYString) else {
+                    print("Error al convertir la parte y de la posicion en Double")
+                    continue capturaPosicionAccidente
+                }
+
+                ubicacionAccidente = (posicionX, posicionY)
+                break capturaPosicionAccidente
             }
             
-            print("Ingrese la posicion Y del accidente:")
-            mensaje = readLine()!
-            guard let posicionY = Double(mensaje) else {
-                print("El texto ingresado no puede convertirse a Double")
-                return
+            for indiceAmbulancia in (0..<numeroDeAmbulancias) {
+                
+                let posicionAmbulancia = ubicacionAmbulancias[indiceAmbulancia]
+                
+                let diferenciaXCuadrada = pow(posicionAmbulancia.0 - ubicacionAccidente.0, 2)
+                let diferenciaYCuadrada = pow(posicionAmbulancia.1 - ubicacionAccidente.1, 2)
+                
+                let distancia = sqrt( diferenciaXCuadrada + diferenciaYCuadrada )
+                
+                if indiceAmbulancia == 0 || (distancia < menorDistanciaHastaElAccidente) {
+                    menorDistanciaHastaElAccidente = distancia
+                    ambulanciaMasCercana = indiceAmbulancia
+                }
             }
             
-            let posicionAccidente = (posicionX, posicionY)
-            
+            print("La ambulancia de placa \(placasDeAmbulancias[ambulanciaMasCercana]) es la más cercana al accidente, a unos \(menorDistanciaHastaElAccidente) metros del lugar")
         case 3:
-            print("Hasta la proxima")
+            print("Suerte")
             break cicloInfinito
         default:
             break
