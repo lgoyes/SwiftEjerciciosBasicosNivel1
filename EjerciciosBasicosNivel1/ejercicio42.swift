@@ -9,7 +9,7 @@
 import Foundation
 
 /*
- 42. Haga un algoritmo que dibuje en la pantalla un triángulo de base y altura N, como se indica en el siguiente ejemplo para `N=5`:
+ 42. Haga un algoritmo que dibuje en la pantalla un triángulo recto de base y altura N, como se indica en el siguiente ejemplo para `N=5`:
 
  ```
  OOOOO
