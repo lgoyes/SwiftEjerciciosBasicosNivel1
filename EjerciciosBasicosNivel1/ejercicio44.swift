@@ -11,13 +11,13 @@ import Foundation
  Haga un algoritmo que, dado un número `N`, dibuje en la pantalla un rombo de diagonales superior e inferior, `D=N` y `d=N`, respectivamente. Por ejemplo, dado `N=7`, el programa debería pintar la siguiente figura:
 
  ```
-123x
-12xxx
-1xxxxx
-xxxxxxx
-1xxxxx
-12xxx
-123x
+   O
+  OOO
+ OOOOO
+OOOOOOO
+ OOOOO
+  OOO
+   O
  ```
  + Resuelva el ejercicio imprimiendo un mensaje por línea
  + Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)

@@ -194,3 +194,69 @@ OOOOOOO
 ```
 + Resuelva el ejercicio imprimiendo un mensaje por línea
 + Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)
+
+45. Escribir un programa que pregunte al usuario una cantidad de dinero a invertir en un CDT, la tasa de interés anual y el número de durante el que va a dejar la inversión. Luego, muestre por pantalla el capital obtenido en la inversión cada año.
+
+46. Haga un programa que pida al usuario un número entero y que muestre por pantalla un triángulo rectángulo como el se muestra a continuación para `N=9`.
+```
+1
+3 1
+5 3 1
+7 5 3 1
+9 7 5 3 1
+```
+
+47. Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida, empezando por la última. Por ejemplo, si se ingresa: "hola" el programa deberá imprimir: "a l o h".
+
+48. Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.
+
+49. Socitar al usuario que ingrese una frase, y luego imprimir un listado de las vocales que aparecen en esa frase (sin repetirlas). (¿CUALES vocales aparecen?)
+
+50. Solicitar al usuario que ingrese una frase, y luego imprimir la cantidad de vocales que se encuentran en dicha frase. (¿CUANTAS vocales aparecen?)
+
+51. Pedir al usuario que ingrese números enteros positivos, y por cada uno, imprimir la suma de los dígitos que lo componen. Al ingresarse el número `-1`, el programa debe salir. Al final, mostrar CUANTOS de los números ingresados por el usuario fueron pares. 
+
+52. Crear un programa que permita al usuario ingresar títulos de libros por teclado. Se debe finalizar el programa al leerse el string `"*"` (asterisco). Cada vez que el usuario ingrese un string de longitud `l=1` que contenga solo un slash (`"/"`), se considera como terminada una línea. Por cada línea completa, informar cuántos dígitos numéricos aparecieron en total (en todos los títulos que componen esa línea). Finalmente, informar cu´natas líneas completas se ingresaron. Por ejemplo:
+```
+Ingrese nombre del libro:
+Los 3 mosqueteros
+
+Ingrese nombre del libro:
+Historia de 2 ciudades
+
+Ingrese nombre del libro:
+/
+
+Línea completa. Aparecen 2 dígitos numéricos.
+
+Ingrese nombre del libro:
+20000 leguas de viaje submarino
+
+Ingrese nombre del libro:
+El señor de los anillos
+
+Ingrese nombre del libro:
+/
+
+Línea completa. Aparecen 5 dígitos numéricos.
+
+Ingrese nombre del libro:
+20 años después
+
+Ingrese nombre del libro:
+*
+
+Fin. Se leyeron 2 líneas completas.
+```
+
+53. Hacer un programa que pida al usuario una frase, y que luego informe cuál fue la palabra más larga (en caso de haber más de una, mostrar la primera) y cuántas palabras había.
++ Tome como separador de las palabras el caracter `" "` (espacio), ya sea uno o más.
+
+54. En la central de pollo se pueden comprar alas de pollo en paquetes de 6, 9 o 20 unidades. Escribir una programa que reciba un número entero `X`, y decida si es o no posible comprar `X` cantidad de alitas.
+Por ejemplo:
++ Se pueden comprar 12 alitas en 2 paquetes de 6 alitas.
++ Se pueden comprar 26 alitas en 1 paquete de 6 alitas junto con otro de 20.
++ No se pueden comprar 7 alitas. 
++ No se pueden comprar 16 alitas.
+
+55. Encriptar un mensaje usando el método de "la cifra del césar", que consiste en correr cada letra -considerando la posición de cada una en el alfabeto- una determinada cantidad de lugares. Ejemplo: si el corrimiento es de 2 lugares, la palabra "HOLA" se transforma en "JQNC". Si el alfabeto termina antes de poder correr la cantidad de lugares necesarios, se vuelve a comenzar desde la letra "A".
