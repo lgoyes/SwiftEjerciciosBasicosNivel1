@@ -1,6 +1,9 @@
 # Ejercicios de programación
+
  
  A continuación se presentará una serie de ejercicios de algoritmos de programación, cuya dificultad irá aumentando, progresivamente. Se pueden resolver con cualquier lenguage de programación aunque aquí se presente la solución de los mismos usando el lenguaje de programación Swift.
+ 
+## Ejercicios de Programación estructurada
 
 1. Calcule la distancia recorrida `x` [m] por un móvil que tiene velocidad constante `v=5` [m/s] durante un tiempo `t=2` [s]. Imprima la distancia recorrida.
 
@@ -156,7 +159,7 @@ Note que no hay límite de números predefinido. La captura de números se detie
 
 ## Ejercicios de ciclos
 
-42. Haga un algoritmo que dibuje en la pantalla un triángulo recto de base y altura N, como se indica en el siguiente ejemplo para `N=5`:
+1. Haga un algoritmo que dibuje en la pantalla un triángulo recto de base y altura N, como se indica en el siguiente ejemplo para `N=5`:
 
 ```
 OOOOO
@@ -169,7 +172,7 @@ O
 + Resuelva el ejercicio imprimiendo un mensaje por línea
 + Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)
 
-43. Haga un algoritmo que dibuje en pantalla un triágulo, como se indica en el siguiente ejemplo para `N=4`:
+2. Haga un algoritmo que dibuje en pantalla un triágulo, como se indica en el siguiente ejemplo para `N=4`:
 
 ```
 O
@@ -183,7 +186,7 @@ O
 + Resuelva el ejercicio imprimiendo un mensaje por línea
 + Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)
 
-44. Haga un algoritmo que, dado un número `N`, dibuje en la pantalla un rombo de diagonales superior e inferior, `D=N` y `d=N`, respectivamente. Por ejemplo, dado `N=7`, el programa debería pintar la siguiente figura:
+3. Haga un algoritmo que, dado un número `N`, dibuje en la pantalla un rombo de diagonales superior e inferior, `D=N` y `d=N`, respectivamente. Por ejemplo, dado `N=7`, el programa debería pintar la siguiente figura:
 
 ```
    O
@@ -197,9 +200,9 @@ OOOOOOO
 + Resuelva el ejercicio imprimiendo un mensaje por línea
 + Resuelva el ejercicio imprimiendo un solo mensaje (use el caracter `\n` para saltar de línea)
 
-45. Escribir un programa que pregunte al usuario una cantidad de dinero a invertir en un CDT, la tasa de interés anual y el número de durante el que va a dejar la inversión. Luego, muestre por pantalla el capital obtenido en la inversión cada año.
+4. Escribir un programa que pregunte al usuario una cantidad de dinero a invertir en un CDT, la tasa de interés anual y el número de durante el que va a dejar la inversión. Luego, muestre por pantalla el capital obtenido en la inversión cada año.
 
-46. Haga un programa que pida al usuario un número entero y que muestre por pantalla un triángulo rectángulo como el se muestra a continuación para `N=9`.
+5. Haga un programa que pida al usuario un número entero y que muestre por pantalla un triángulo rectángulo como el se muestra a continuación para `N=9`.
 ```
 1
 3 1
@@ -208,17 +211,17 @@ OOOOOOO
 9 7 5 3 1
 ```
 
-47. Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida, empezando por la última. Por ejemplo, si se ingresa: "hola" el programa deberá imprimir: "a l o h".
+6. Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida, empezando por la última. Por ejemplo, si se ingresa: "hola" el programa deberá imprimir: "a l o h".
 
-48. Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.
+7. Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.
 
-49. Socitar al usuario que ingrese una frase, y luego imprimir un listado de las vocales que aparecen en esa frase (sin repetirlas). (¿CUALES vocales aparecen?)
+8. Socitar al usuario que ingrese una frase, y luego imprimir un listado de las vocales que aparecen en esa frase (sin repetirlas). (¿CUALES vocales aparecen?)
 
-50. Solicitar al usuario que ingrese una frase, y luego imprimir la cantidad de vocales que se encuentran en dicha frase. (¿CUANTAS vocales aparecen?)
+9. Solicitar al usuario que ingrese una frase, y luego imprimir la cantidad de vocales que se encuentran en dicha frase. (¿CUANTAS vocales aparecen?)
 
-51. Pedir al usuario que ingrese números enteros positivos, y por cada uno, imprimir la suma de los dígitos que lo componen. Al ingresarse el número `-1`, el programa debe salir. Al final, mostrar CUANTOS de los números ingresados por el usuario fueron pares. 
+10. Pedir al usuario que ingrese números enteros positivos, y por cada uno, imprimir la suma de los dígitos que lo componen. Al ingresarse el número `-1`, el programa debe salir. Al final, mostrar CUANTOS de los números ingresados por el usuario fueron pares. 
 
-52. Crear un programa que permita al usuario ingresar títulos de libros por teclado. Se debe finalizar el programa al leerse el string `"*"` (asterisco). Cada vez que el usuario ingrese un string de longitud `l=1` que contenga solo un slash (`"/"`), se considera como terminada una línea. Por cada línea completa, informar cuántos dígitos numéricos aparecieron en total (en todos los títulos que componen esa línea). Finalmente, informar cu´natas líneas completas se ingresaron. Por ejemplo:
+11. Crear un programa que permita al usuario ingresar títulos de libros por teclado. Se debe finalizar el programa al leerse el string `"*"` (asterisco). Cada vez que el usuario ingrese un string de longitud `l=1` que contenga solo un slash (`"/"`), se considera como terminada una línea. Por cada línea completa, informar cuántos dígitos numéricos aparecieron en total (en todos los títulos que componen esa línea). Finalmente, informar cu´natas líneas completas se ingresaron. Por ejemplo:
 ```
 Ingrese nombre del libro:
 Los 3 mosqueteros
@@ -251,44 +254,160 @@ Ingrese nombre del libro:
 Fin. Se leyeron 2 líneas completas.
 ```
 
-53. Hacer un programa que pida al usuario una frase, y que luego informe cuál fue la palabra más larga (en caso de haber más de una, mostrar la primera) y cuántas palabras había.
+12. Hacer un programa que pida al usuario una frase, y que luego informe cuál fue la palabra más larga (en caso de haber más de una, mostrar la primera) y cuántas palabras había.
 + Tome como separador de las palabras el caracter `" "` (espacio), ya sea uno o más.
 
-54. En la central de pollo se pueden comprar alas de pollo en paquetes de 6, 9 o 20 unidades. Escribir una programa que reciba un número entero `X`, y decida si es o no posible comprar `X` cantidad de alitas.
+13. En la central de pollo se pueden comprar alas de pollo en paquetes de 6, 9 o 20 unidades. Escribir una programa que reciba un número entero `X`, y decida si es o no posible comprar `X` cantidad de alitas.
 Por ejemplo:
 + Se pueden comprar 12 alitas en 2 paquetes de 6 alitas.
 + Se pueden comprar 26 alitas en 1 paquete de 6 alitas junto con otro de 20.
 + No se pueden comprar 7 alitas. 
 + No se pueden comprar 16 alitas.
 
-55. Encriptar un mensaje usando el método de "la cifra del césar", que consiste en correr cada letra -considerando la posición de cada una en el alfabeto- una determinada cantidad de lugares. Ejemplo: si el corrimiento es de 2 lugares, la palabra "HOLA" se transforma en "JQNC". Si el alfabeto termina antes de poder correr la cantidad de lugares necesarios, se vuelve a comenzar desde la letra "A".
+14. Encriptar un mensaje usando el método de "la cifra del césar", que consiste en correr cada letra -considerando la posición de cada una en el alfabeto- una determinada cantidad de lugares. Ejemplo: si el corrimiento es de 2 lugares, la palabra "HOLA" se transforma en "JQNC". Si el alfabeto termina antes de poder correr la cantidad de lugares necesarios, se vuelve a comenzar desde la letra "A".
 
 ## Ejercicios de arreglos
 
-56. Realizar un programa que defina un vector llamado `vectorNumeros` de 10 enteros. A continuación, inicialice el vector con valores aleatorios, del 0 al 9; y posteriormente, muestre en pantalla cada elemento del vector junto con su cuadrado y su cubo.
+1. Realizar un programa que defina un vector llamado `vectorNumeros` de 10 enteros. A continuación, inicialice el vector con valores aleatorios, del 0 al 9; y posteriormente, muestre en pantalla cada elemento del vector junto con su cuadrado y su cubo.
 
-57. Crear un vector de 5 elementos de cadenas de caracteres (arreglo de strings). Inicializar el vector con datos leídos por teclado. Copiar los elementos del vector en otro vector, pero en orden inverso. Imprima los dos vectores en pantalla.
+2. Crear un vector de 5 elementos de cadenas de caracteres (arreglo de strings). Inicializar el vector con datos leídos por teclado. Copiar los elementos del vector en otro vector, pero en orden inverso. Imprima los dos vectores en pantalla.
 
-58. Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 10). A continuación, debe mostrar todas las notas, la nota media, la nota más alta que ha sacado y la menor.
+3. Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 10). A continuación, debe mostrar todas las notas, la nota media, la nota más alta que ha sacado y la menor.
 
-59. Declare un vector de diez elementos enteros positivos. Pida números para rellenarlo; al ingresar el número -1, se debe poder remplazar el último número ingresado.
+4. Declare un vector de diez elementos enteros positivos. Pida números para rellenarlo; al ingresar el número -1, se debe poder remplazar el último número ingresado.
 
 Por ejemplo: 
 Si la secuencia de números ingresada es: `1 2 3 4 5`, al introducir el `-1` seguido del número `6`, la secuencia resultante será `1 2 3 4 6`.
 
-60. Hacer un programa que inicialice un vector de números enteros con valores aleatorios, y posteriomente, ordene los elementos de menor a mayor.
+5. Hacer un programa que inicialice un vector de números enteros con valores aleatorios, y posteriomente, ordene los elementos de menor a mayor.
 
-61. Cree un programa que pida un número al usuario correspondiente a un mes del año (0: enero, 1: febrero, 2: marzo, 3: abril, 4: mayo, 5: junio, 6: julio, 7: agosto, 8: septiembre, 9: octubre, 10: noviembre, 11: diciembre) y luego imprima en pantalla cuál es el mes asociado y el número de días del mes. Al ingresar un número mayor a 11, debe mostrar un mensaje de error.
+6. Cree un programa que pida un número al usuario correspondiente a un mes del año (0: enero, 1: febrero, 2: marzo, 3: abril, 4: mayo, 5: junio, 6: julio, 7: agosto, 8: septiembre, 9: octubre, 10: noviembre, 11: diciembre) y luego imprima en pantalla cuál es el mes asociado y el número de días del mes. Al ingresar un número mayor a 11, debe mostrar un mensaje de error.
 
-62. Declare tres arreglos `arreglo1`, `arreglo2` y `arreglo3` de cinco enteros cada uno. Pida valores para `arreglo1` y calcule aleatoriamente los valores para `arreglo2`, entre `-5` y `5`. Luego, calcule `arreglo3 = arreglo1 + arreglo2`.
+7. Declare tres arreglos `arreglo1`, `arreglo2` y `arreglo3` de cinco enteros cada uno. Pida valores para `arreglo1` y calcule aleatoriamente los valores para `arreglo2`, entre `-5` y `5`. Luego, calcule `arreglo3 = arreglo1 + arreglo2`.
 
-63. Queremos guardar los nombres y las edades de los alumnos de un curso. Realizar un programa que introduzca el nombre y la edad de cada alumno. El proceso de lectura de datos terminará cuando se introduzca como nombre un asterisco (`"*"`). Al finalizar se mostrará los siguientes datos:
+8. Queremos guardar los nombres y las edades de los alumnos de un curso. Realizar un programa que introduzca el nombre y la edad de cada alumno. El proceso de lectura de datos terminará cuando se introduzca como nombre un asterisco (`"*"`). Al finalizar se mostrará los siguientes datos:
     + Todos los alumnos mayores de edad.
     + El alumno más viejo.
 
-64. Cree un programa para guardar la temperatura máxima y mínima de 5 días. Luego, imprima en pantalla la siguiente información:
+9. Cree un programa para guardar la temperatura máxima y mínima de 5 días. Luego, imprima en pantalla la siguiente información:
     + La termperatura media de cada día.
     + Los días con menos temperatura.
 
 Adicionalmente, se lee una temperatura por teclado y se muestran los días cuya temperatura máxima supera ese umbral. Si no existe ningún día se muestra un mensaje de información.
 
+10. Se requiere guardar el nombre de los conductores de una empresa, junto con los kilómetros que conducen cada día de la semana.
+
+Para guardar esta información se van a utilizar dos arreglos:
++ nombres: Arreglo para guardar los nombres de los conductores
++ kilometros: Tabla  para guardar los kilómetros que realizan cada día de la semana.
+
+Se quiere generar un nuevo arreglo `totalKms` con los kilómetros totales que realiza cada conductor.
+Al finalizar se muestra la lista con los nombres de conductores y los kilómetros que han realizado.
+
+NOTA: Tenga en cuenta que para hacer una tabla, o una matriz, tendrá que hacer un vector de vectores, o un arreglo de arreglos. Es decir, por ejemplo, la tabla `kilometros` podría ser:
+
+```
+let kilometros: [[Int]] = [[1,2,3], [3,4,5], [6,7,8]]
+```
+
+11. Crear un programa que lea los precios de 5 artículos y las cantidades vendidas por una empresa en sus 4 sucursales. Informar:
+
++ Las cantidades totales de cada artículo.
++ La cantidad de artículos en la sucursal 2.
++ La cantidad del artículo 3 en la sucursal 1.
++ La recaudación total de cada sucursal.
++ La recaudación total de la empresa.
++ La sucursal de mayor recaudación.
++ El artículo menos vendido.
+
+Tenga en cuenta que si hay 4 sucursales y por cada una de ellas se tienen las cantidades vendidas de 5 artículos; esto significa que tendrá que hacer una matriz de 4 filas y 5 columnas, que es lo mismo que un vector con 4 vectores en su interior, los cuales se componen de 5 elementos, cada uno.
+
+## Ejercicios de funciones
+
+1. Crea una función `centrar`, que reciba como parámetro una frase de tipo `String` y la escriba centrado en pantalla. Suponer que el ancho de la pantalla es de 80 columnas.
+
+Pista: Si la longitud de la frase es `L`, se tendrán que escribir `40-L/2` espacios en blanco (`" "`) antes del texto.
+
+2. Crea un programa que pida dos número enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crear una función `esMultiplo` que reciba los dos números, y devuelve si el primero es múltiplo del segundo.
+
+3. Crear una función que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal, que utilizando la función anterior, vaya pidiendo la temperatura máxima y mínima de cada día y vaya mostrando la media. El programa pedirá el número de días que se van a introducir.
+
+4. Crear un función `convertirEspaciado`, que reciba como parámetro un texto y devuelve una cadena con un espacio adicional tras cada letra. Por ejemplo, `"Hola, tú"` devolverá `"H o l a , t ú "`. Luego, crear un programa principal donde se use dicha función.
+
+5. Crear una función `calcularMaxMin` que recibe una arreglo con valores numérico y devuelve el valor máximo y el mínimo. Luego, crear un programa que pida números por teclado y muestre el máximo y el mínimo, utilizando la función anterior.
+
+6. Diseñar una función que calcule el área y el perímetro de una circunferencia. Utilizar dicha función en un programa principal que lea el radio de una circunferencia y muestre su área y perímetro.
+
+7. Crear una función llamada `login`, que reciba un nombre de usuario (`username`) y una contraseña (`password`) y devuelva `true` si el nombre de usuario es `usuario1` y la contraseña es `asdasd`. Además recibe el número de intentos que se ha intentado hacer login y si no se ha podido hacer login incremente este valor. Luego, crear un programa principal donde se pida un nombre de usuario y una contraseña y se intente hacer login, solamente tenemos tres oportunidades para intentarlo.
+
+8. Crear una función que permita calcular el factorial de un número. Realizar un programa principal donde se lea un entero y se muestre el resultado del factorial.
+
+9. Crear una función que calcule el MCD de dos número por el método de Euclides. El método de Euclides es el siguiente:
+
++ Se divide el número mayor entre el menor.
++ Si la división es exacta, el divisor es el MCD.
++ Si la división no es exacta, dividimos el divisor entre el resto obtenido y se continúa de esta forma hasta obtener una división exacta, siendo el último divisor el MCD.
+
+Crear un programa principal que lea dos números enteros y muestre el MCD.
+
+10. Escribir dos funciones que permitan calcular:
++ La cantidad de segundos en un tiempo dado en horas, minutos y segundos.
++ La cantidad de horas, minutos y segundos de un tiempo dado en segundos.
+
+Escribir un programa principal con un menú donde se pueda elegir la opción de convertir a segundos, convertir a horas,minutos y segundos o salir del programa.
+
+11. El día juliano correspondiente a una fecha es un número entero que indica los días que han transcurrido desde el 1 de enero del año indicado. Queremos crear un programa principal que al introducir una fecha nos diga el día juliano que corresponde. Para ello podemos hacer las siguientes funciones:
+
+`leerFecha`: Nos permite leer por teclado una fecha (día, mes y año).
+`diasDelMes`: Recibe un mes y un año y nos dice los días de ese mes en ese año.
+`esBisiesto`: Recibe un año y nos dice si es bisiesto.
+`calcularDiaJuliano`: recibe una fecha y nos devuelve el día juliano.
+
+12. Vamos a mejorar el ejercicio anterior haciendo una función para validar la fecha. De tal forma que al leer una fecha se asegura que es válida.
+
+13. Queremos crear un programa que trabaje con fracciones a/b. Para representar una fracción vamos a utilizar dos enteros: numerador y denominador.
+
+Vamos a crear las siguientes funciones para trabajar con funciones:
+
++ `leerFraccion`: La tarea de esta función es leer por teclado el numerador y el denominador. Cuando se lea una fracción se debe simplificar.
++ `escribirFraccion`: Esta función escribe en pantalla la fracción. Si el dominador es 1, se muestra sólo el numerador.
++ `calcularMCD`: Esta función recibe dos número y devuelve el máximo común divisor.
++ `simplificarFraccion`: Esta función simplifica la fracción, para ello hay que dividir numerador y dominador por el MCD del numerador y denominador.
++ `sumarFracciones`: Función que recibe dos funciones `n1/d1` y `n2/d2`, y calcula la suma de las dos fracciones. La suma de dos fracciones es otra fracción cuyo `numerador=n1*d2+d1*n2` y `denominador=d1*d2`. Se debe simplificar la fracción resultado.
++ `restarFracciones`: Función que resta dos fracciones: `numerador=n1*d2-d1*n2` y `denominador=d1*d2`. Se debe simplificar la fracción resultado.
++ `multiplicarFracciones`: Función que recibe dos fracciones y calcula el producto, para ello `numerador=n1*n2` y `denominador=d1*d2`. Se debe simplificar la fracción resultado.
++ `dividirFracciones`: Función que recibe dos fracciones y calcula el cociente, para ello `numerador=n1*d2` y `denominador=d1*n2`. Se debe simplificar la fracción resultado.
+
+Crear un programa que utilizando las funciones anteriores muestre el siguiente menú:
+
+1. Sumar dos fracciones: En esta opción se piden dos fracciones y se muestra el resultado.
+2. Restar dos fracciones: En esta opción se piden dos fracciones y se muestra la resta.
+3. Multiplicar dos fracciones: En esta opción se piden dos fracciones y se muestra la producto.
+4. Dividir dos fracciones: En esta opción se piden dos fracciones y se muestra la cociente.
+5. Salir
+
+13. Vamos a crear un programa para trabajar con una pila. Una pila es una estructura de datos que nos permite guardar un conjunto de variables. La característica fundamental es que el último elemento que se añade al conjunto es el primero que se puede sacar.
+
+Para representar una pila vamos a utilizar un arreglo (vector) de Strings con tamaño 10, por lo tanto la pila no podrá tener más de 10 elementos.
+
+Vamos a crear varias funciones para trabajar con la pila:
+
++ `incializarPila`: Como tenemos un arreglo de 10 elementos de cadenas tenemos que inicializarlo con espacios vacíos (`""`) en todas las posiciones.
++ `longitudPila`: Función que recibe una pila y devuelve el número de elementos que tiene.
++ `estaVaciaPila`: Función que recibe una pila y que devuelve si la pila está vacía, no tiene elementos.
+    EstaLlenaPila: Función que recibe una pila y que devuelve si la pila está llena.
++ `addPila`: función que recibe un String y una pila, y añade la cadena a la pila, si no está llena. si esta llena muestra un mensaje de error.
++ `sacarDeLaPila`: Función que recibe una pila y devuelve el último elemento añadido y lo borra de la pila. Si la pila está vacía muestra un mensaje de error.
++ `escribirPila`: Función que recibe una pila y muestra en pantalla los elementos de la pila.
+
+Realiza un programa principal que nos permita usar las funciones anterior, que nos muestre un menú, con las siguientes opciones:
+
+1. Añadir elemento a la pila
+2. Sacar elemento de la pila
+3. Longitud de la pila
+4. Mostrar pila
+5. Salir
+
+15. Vamos a realizar un programa similar al anterior para trabajar con una cola. Una cola es una estructura de datos que nos permite guardar un conjunto de variables. La característica fundamental es que el primer elemento que se añade al conjunto es el primero que se puede sacar.
+
+Todas las funciones del ejercicio anterior sirven, menos la función `sacarDeLaCola`, que es la que se tiene que modificar.
