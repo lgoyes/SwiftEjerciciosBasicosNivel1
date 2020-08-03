@@ -154,6 +154,8 @@ Note que no hay límite de números predefinido. La captura de números se detie
    2. Ingresar Ubicación (x,y) del accidente y calcular ambulancia más cercana
    3. Salir
 
+## Ejercicios de ciclos
+
 42. Haga un algoritmo que dibuje en la pantalla un triángulo recto de base y altura N, como se indica en el siguiente ejemplo para `N=5`:
 
 ```
@@ -260,3 +262,33 @@ Por ejemplo:
 + No se pueden comprar 16 alitas.
 
 55. Encriptar un mensaje usando el método de "la cifra del césar", que consiste en correr cada letra -considerando la posición de cada una en el alfabeto- una determinada cantidad de lugares. Ejemplo: si el corrimiento es de 2 lugares, la palabra "HOLA" se transforma en "JQNC". Si el alfabeto termina antes de poder correr la cantidad de lugares necesarios, se vuelve a comenzar desde la letra "A".
+
+## Ejercicios de arreglos
+
+56. Realizar un programa que defina un vector llamado `vectorNumeros` de 10 enteros. A continuación, inicialice el vector con valores aleatorios, del 0 al 9; y posteriormente, muestre en pantalla cada elemento del vector junto con su cuadrado y su cubo.
+
+57. Crear un vector de 5 elementos de cadenas de caracteres (arreglo de strings). Inicializar el vector con datos leídos por teclado. Copiar los elementos del vector en otro vector, pero en orden inverso. Imprima los dos vectores en pantalla.
+
+58. Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 10). A continuación, debe mostrar todas las notas, la nota media, la nota más alta que ha sacado y la menor.
+
+59. Declare un vector de diez elementos enteros positivos. Pida números para rellenarlo; al ingresar el número -1, se debe poder remplazar el último número ingresado.
+
+Por ejemplo: 
+Si la secuencia de números ingresada es: `1 2 3 4 5`, al introducir el `-1` seguido del número `6`, la secuencia resultante será `1 2 3 4 6`.
+
+60. Hacer un programa que inicialice un vector de números enteros con valores aleatorios, y posteriomente, ordene los elementos de menor a mayor.
+
+61. Cree un programa que pida un número al usuario correspondiente a un mes del año (0: enero, 1: febrero, 2: marzo, 3: abril, 4: mayo, 5: junio, 6: julio, 7: agosto, 8: septiembre, 9: octubre, 10: noviembre, 11: diciembre) y luego imprima en pantalla cuál es el mes asociado y el número de días del mes. Al ingresar un número mayor a 11, debe mostrar un mensaje de error.
+
+62. Declare tres arreglos `arreglo1`, `arreglo2` y `arreglo3` de cinco enteros cada uno. Pida valores para `arreglo1` y calcule aleatoriamente los valores para `arreglo2`, entre `-5` y `5`. Luego, calcule `arreglo3 = arreglo1 + arreglo2`.
+
+63. Queremos guardar los nombres y las edades de los alumnos de un curso. Realizar un programa que introduzca el nombre y la edad de cada alumno. El proceso de lectura de datos terminará cuando se introduzca como nombre un asterisco (`"*"`). Al finalizar se mostrará los siguientes datos:
+    + Todos los alumnos mayores de edad.
+    + El alumno más viejo.
+
+64. Cree un programa para guardar la temperatura máxima y mínima de 5 días. Luego, imprima en pantalla la siguiente información:
+    + La termperatura media de cada día.
+    + Los días con menos temperatura.
+
+Adicionalmente, se lee una temperatura por teclado y se muestran los días cuya temperatura máxima supera ese umbral. Si no existe ningún día se muestra un mensaje de información.
+
