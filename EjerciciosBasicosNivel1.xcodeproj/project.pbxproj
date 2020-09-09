@@ -95,6 +95,9 @@
 		0C74677E24911B1400245297 /* Ejercicios.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Ejercicios.md; sourceTree = "<group>"; };
 		0C75D57724ABBFD200905767 /* ejercicio42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio42.swift; sourceTree = "<group>"; };
 		0C75D57924ABC1F600905767 /* ejercicio43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio43.swift; sourceTree = "<group>"; };
+		0C83C55E250968DA009CA372 /* EjerciciosEstructurasDeDatos.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EjerciciosEstructurasDeDatos.md; sourceTree = "<group>"; };
+		0C83C55F25096CAA009CA372 /* EjerciciosInterfaces.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EjerciciosInterfaces.md; sourceTree = "<group>"; };
+		0C83C56025096CF1009CA372 /* EjerciciosClases.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EjerciciosClases.md; sourceTree = "<group>"; };
 		0C8CA44524B28B93004CC137 /* ejercicio44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio44.swift; sourceTree = "<group>"; };
 		0CAFF60C24966C1A00EF5D8D /* ejercicio25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio25.swift; sourceTree = "<group>"; };
 		0CAFF60E24966EDB00EF5D8D /* ejercicio26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio26.swift; sourceTree = "<group>"; };
@@ -192,6 +195,9 @@
 				0CE5645E24901D2900E3D3C8 /* main.swift */,
 				0C75D57924ABC1F600905767 /* ejercicio43.swift */,
 				0C8CA44524B28B93004CC137 /* ejercicio44.swift */,
+				0C83C55E250968DA009CA372 /* EjerciciosEstructurasDeDatos.md */,
+				0C83C55F25096CAA009CA372 /* EjerciciosInterfaces.md */,
+				0C83C56025096CF1009CA372 /* EjerciciosClases.md */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";
