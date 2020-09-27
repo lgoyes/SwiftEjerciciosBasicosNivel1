@@ -247,6 +247,14 @@ Cada orden es asignada al restaurante más cercano al cliente, siempre y cuando 
 
 El programa debe permitir agregar una nueva franquicia en cualquier momento.
 
+2. La empresa Instagram2 quiere crear una nueva red social. Cada usuario tiene un `id`, un `correo`, `contraseña`, `nombre` y una colección de `publicaciones`. Cada publicación puede ser de tipo `Imagen` o `Video`, tiene un `id`, la `URL` del archivo asociado, una `descripcion`, una lista de `comentarios` y un contador de `likes`.
+
+Hacer un programa que permita `Crear`, `Eliminar`, `Listar` y `Modificar` Usuarios y administrar Publicaciones.
+
+Al conjunto de operaciones `Crear`, `Eliminar`, `Leer`, `Listar` y `Modificar` se le conoce como operaciones `CRUDL` (es el acrónimo de `Create`, `Read`, `Update`, `Delete`, `List`).
+
+3. Repita el ejercicio 1 de la sección de Enumeraciones usando Estructuras en lugar de tuplas. Modifíquelo de modo que haya 2 obstáculos de dimensiones 1x1 en el camino (la cantidad puede variar) cuya posición sea dada aleatoriamente. El personaje no se puede tomar la posición de los obstáculos.
+
 ## Diccionarios
 
 ## Conjuntos
