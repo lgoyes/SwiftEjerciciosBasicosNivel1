@@ -257,6 +257,181 @@ Al conjunto de operaciones `Crear`, `Eliminar`, `Leer`, `Listar` y `Modificar` s
 
 ## Diccionarios
 
+Un diccionario es un tipo de colección que relaciona pares `Llave`-`Valor` (`a:b`) de tipos `A` y `B`, respectivamente; donde `A` puede ser el mismo tipo que `B`. A tener en cuenta:
+* Los elementos dentro del diccionario NO tienen un orden determinado. No son como elementos de un arreglo, que se pueden acceder a través de una posición. NO existe una posición ordenada.
+* Cada llave `a`, de la pareja `a:b`, es UNICA e identifican al dato `b` dentro del diccionario.
+    * Imagine que tenemos a dos personas dentro del diccionario. La llave es el número de cédula, y el nombre es el valor. El nombre puede repetirse; la cédula, no.
+    
+Un diccionario es de tipo `Dictionary<Key, Value>`, donde `Key` es el tipo del dato usado como llave o identificador, y `Value` es el tipo del dato almacenado en el diccionario, para su llave asociada.
+
+La forma corta del tipo `Dictionary<Key, Value>` es `[Key: Value]`. Ambas formas son válidas, y nosotros vamos a preferir la forma corta.
+
+Para crear un diccionario vacío de cierto tipo se puede usar la misma sintaxis de los arreglos:
+```
+var nombresDeEnteros = [Int: String]()
+var cedulasANombres = [String: String]()
+```
+
+En el ejemplo 1, se van a asociar números enteros con la forma como se leen en español. En el ejemplo 2, se van a asociar números de cédula (representadas con Strings), con un nombre de una persona.
+Otra forma de inicializar los diccionarios vacíos, habría sido:
+```
+var nombresDeEnteros : [Int: String] = [:]
+var cedulasANombres : [String: String] = [:]
+```
+
+Para agregar una entrada al diccionario, basta con usar la misma notación de índice de los arreglos (`[0]`, `["1297319X"]`). Vale aclarar que, para modificar un diccionario, este debe ser mutable (o sea, `var` y no `let`.)
+```
+nombresDeEnteros[20] = "veinte"
+cedulasANombres["1297319X"] = "Luis"
+```
+
+A diferencia de los arreglos, que se estallaban si la posición no existía, los diccionarios crean una nueva entrada, si no existe.
+
+Para modificar una entrada del diccionario, se usa la misma notación de índice que vimos anteriormente.
+```
+nombresDeEnteros[20] = "VEINTE"
+cedulasANombres["1297319X"] = "Luis Medardo G."
+```
+
+Para leer una entrada del diccionario, se llama la llave deseada, usando la notación de índice:
+```
+let numeroAImprimir = nombreDeEnteros[20]
+let desarrollador = cedulasANombres["1297319X"]
+
+print(numeroAImprimir) //Optional("VEINTE")
+print(desarrollador) //Optional("Luis Medardo G.")
+```
+
+Como puede ver, el diccionario retorna un dato opcional, cuando se consulta por una llave. Eso se debe a que _existe la posibilidad de que la llave no exista_. En caso de que la llave no exista, el diccionario devolverá `nil`.
+```
+let numeroInexistente = nombreDeEnteros[21]
+let desarrolladorInexistente = cedulasANombres["1297319X"]
+
+print(numeroAImprimir) //nil
+print(desarrollador) //nil
+```
+
+Para eliminar una entrada del diccionario, basta con asignarle el valor de `nil` a la llave que se desea eliminar:
+```
+nombresDeEnteros[20] = nil
+cedulasANombres["1297319X"] = nil
+
+print(nombreDeEnteros[20]) //nil
+print(cedulasANombres["1297319X"]) //nil
+```
+
+Como las entradas del diccionario no están ordenadas como en un arreglo, no se puede iterar sobre este como regularmente hemos iterado sobre arreglos, sino que se debe iterar directamente sobre los elementos del diccionario:
+```
+for (numero, lectura) in nombreDeEnteros {
+    print("El número \(numero) se lee \(lectura)")
+}
+for (cedula, nombre) in cedulasANombres {
+    print("La cedula \(cedula) pertenece a \(nombre)")
+}
+```
+
+Nótese que cada elemento del diccionario es una tupla, que hemos descompuesto en dos partes: una llave, y un valor.
+
+### Ejercicios
+
+1. Dado un diccionario `codigo` de tipo `[String: String]`, que tiene valores para todas las letras minúsculas del alfabeto. El diccionario `codigo` representa la manera de codificar un mensaje. Por ejemplo, si `codigo["a"]="z"` y `codigo["b"]="x"`, la versión codificada de `ababa` sería `zxzxz`.
+
+Dado un `mensaje` que contiene solo letras minúsculas y espacios, use el diccioinario para codificar el mensaje e imprimir el resultado.
+
+```
+var codigo = [
+    "a" : "b",
+    "b" : "c",
+    "c" : "d",
+    "d" : "e",
+    "e" : "f",
+    "f" : "g",
+    "g" : "h",
+    "h" : "i",
+    "i" : "j",
+    "j" : "k",
+    "k" : "l",
+    "l" : "m",
+    "m" : "n",
+    "n" : "o",
+    "o" : "p",
+    "p" : "q",
+    "q" : "r",
+    "r" : "s",
+    "s" : "t",
+    "t" : "u",
+    "u" : "v",
+    "v" : "w",
+    "w" : "x",
+    "x" : "y",
+    "y" : "z",
+    "z" : "a"
+]
+```
+
+2. Dado un arreglo de diccionarios. Cada diccionario en el arreglo contiene exactamente 2 llaves: `nombre` y `apellido`. Cree un arreglo de strings llamado `nombres` que contenga únicamente los valores de la llave `nombre` de cada diccionario.
+Si, por ejemplo, se tienen las siguientes personas:
+```
+var personas: [[String:String]] = [
+    [
+        "nombre": "Luis",
+        "apellido": "Goyes"
+    ],
+    [
+        "nombre": "David",
+        "apellido": "Garces"
+    ]
+]
+```
+El resultado esperado es:
+```
+let nombres = ["Luis", "David"]
+```
+
+3. Dado un arreglo de diccionarios. Cada diccionario contiene máximo 3 llaves: `primerNombre`, `segundoNombre` y `apellido`. Cree un arreglo de strings llamado `nombresCompletos` que contiene los valores de `primerNombre`, `segundoNombre` y `apellido`, concatenados, separados por un espacio. Tenga en cuenta que no todas las personas tienen segundo nombre.
+Si, por ejemplo, se tienen las siguientes personas:
+```
+var personas: [[String:String]] = [
+    [
+        "primerNombre": "Luis",
+        "segundoNombre": "David",
+        "apellido": "Goyes"
+    ],
+    [
+        "nombre": "Natalia",
+        "apellido": "Garces"
+    ]
+]
+```
+El resultado esperado es:
+```
+let nombresCompletos = ["Luis David Goyes", "Natalia Garces"]
+```
+
+4. Dado un arreglo de enteros, encuentre el número de veces que aparece cada entero en el arreglo. Imprima los números en orden ascendente, seguido por su frecuencia.
+Si, por ejemplo, se tiene el arreglo:
+```
+var numbers = [1, 2, 3, 2, 3, 5, 2, 1, 3, 4, 2, 2, 2]
+```
+La salida es:
+```
+1 2
+2 6
+3 3
+4 1
+5 1
+```
+
+5. Dado un arreglo de participantes de un juego, encuentre la persona con el puntaje más alto. Cada participante se representa por una llave `String` para el nombre y un valor `Int` para su puntaje. En caso de que haya un empate, mostrar al primero que se encuentre.
+Si, por ejemplo, se tiene el arreglo:
+```
+var personas: [[String: Int]] = [["Luis": 1], ["David": 2], ["Natalia": 2]]
+```
+La salida es:
+```
+David
+```
+
 ## Conjuntos
 
 
