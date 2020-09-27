@@ -171,6 +171,82 @@ Imprima cuántas unidades de cada productos pidió la mesa, y cuánto es el tota
 
 ## Estructuras
 
+
+### Teoría
+
+Las estructuras son tipos de datos complejos, lo que significa que se componen de otros tipos de datos. Se debe definir una "plantilla" para la estructura, y luego se crean instancias de esa plantilla, rellenando los valores.
+Por ejemplo, definamos una estructura `Persona` que contiene dos propiedades: `nombre` y `edad`:
+```
+struct Persona {
+    var nombre: String
+    var edad: Int
+    let tieneHijo: Bool
+}
+```
+
+Swift genera un inicializador para la estructura, en el que se debe dar un valor a cada uno de sus miembros:
+```
+let papa = Persona(nombre: "Luis", edad: 10, tieneHijo: true)
+let hijo = Persona(nombre: "Luis2", edad: 2, tieneHijo: false)
+```
+
+Una vez creada la instancia de la estructura, se pueden leer sus propiedades al escribir el nombre de la instancia, seguida por un punto, y luego el miembro que se quiere leer:
+```
+print(papa.nombre)
+print(hijo.edad)
+```
+
+Asímismo, para modificar los valores de los miembros de una instancia de la estructura, se puede acceder a ellos por el nombre de la instancia, seguida de un punto, y luego el miembro que se quiere modificar. Después, se pone el operador de asignación (=), seguido de su nuevo valor:
+```
+papa.nombre = "Medardo"
+hijo.edad = 11
+```
+
+Nótese que, para que esto funcione, es OBLIGATORIO que el miembro sea VARIABLE y no constante. En caso de trate modificar una constante, el compilador arrojará error:
+```
+papa.tieneHijo = false // Error de compilación
+```
+
+Los miembros de una estructura pueden ser, tanto datos primitivos (`Int`, `Bool`, `String`, etc) como otros datos complejos (otras estructuras, diccionarios, tuplas, etc). Por ejemplo, considere las siguientes estructuras:
+```
+struct Ubicacion {
+    let latitud: Double
+    let longitud: Double
+}
+struct Direccion {
+    let nombre: String
+    let ubicacion: Ubicacion
+}
+struct Restaurante {
+    let id: Int
+    let nombre: String
+    let direcciones: [Direccion]
+}
+struct DirectorioTelefonico {
+    let directorio: [(restaurante: Restaurante, telefono: String)]
+}
+```
+
+Nótese que  `Ubicacion` es una estructura cuyos miembros son variables primitivas (`Double` únicamente); `Direccion` tiene tanto variables primitivas como complejas (`String` y `Direccion`, respectivamente); `Restaurante` tiene un arreglo de variables complejas, un nombre y un id; y `DirectorioTelefonico` tiene un arreglo de tuplas, compuestas por un `Restaurante` y un `String`.
+
+Una estructura NO ES una clase. El propósito de una estructura es _almacenar datos_, mientras que el de una clase es _abstraer comportamiento_.
+
+Una estructura puede tener funciones, pero esto lo veremos más adelante. Por ahora, nos basta saber que **solo sirven para almacenar datos**.
+
+### Ejercicios
+
+1. McDonalds requiere una aplicación para hacer domicilios, en la que se mapee la ciudad de Medellín en una cuadrícula de 10x10. Las primeras dos franquicias que van a participar de la prueba piloto, llamadas "San Juan" y "Las palmas", están ubicadas en (2,2) y (5,7). Cada franquicia arranca con un capital de `100.000` COP.
+
+El menú que ofrecen todos los restaurante de MacDonalds es limitado: solo se puede ordenar entre `Hamburguesa`, `Gaseosa` y `Papas`, y sus costos, en COP, son `15000`, `7000` y `4700`, respectivamente.
+
+Cada restaurante tiene un inventario de los productos del menú finito. (Nótese, entonces, que cada franquicia está representada por un nombre, una ubicación, un capital, y un inventario de productos).
+
+Para crear una nueva orden, se captura la ubicación del cliente, su nombre y los productos que quiere llevar. (Nótese que estos son los datos de una `Orden`, no de un cliente).
+
+Cada orden es asignada al restaurante más cercano al cliente, siempre y cuando este tenga los productos pedidos en inventario. En caso de que un restaurante no pueda cumplir con la solicitud, rechazará el pedido, y comprará 10 unidades del producto que le faltaba (el costo del producto es el 50% del precio de venta del mismo).
+
+El programa debe permitir agregar una nueva franquicia en cualquier momento.
+
 ## Diccionarios
 
 ## Conjuntos
