@@ -246,3 +246,31 @@ extension Futbolista: Empleado {
 Como se ve en este ejemplo, la estructura de `Futbolista` no tiene estado (atributos) ni comportamiento (funciones), inicialmente. Después de su creación, se la hace conformar el protocolo `Empleado`. 
 
 ### Ejercicios
+
+1. Se quiere hacer un tablero, como en paint. Para ello, se deben definir varias figuras: `Circulo`, `Rectangulo` y `Triángulo`. El tablero (de tipo `Tablero`) solo sabe que tiene figuras de tipo `FiguraCerrada`, y que todas las figuras tienen una función `func obtenerArea() -> Double` y otra función `func obtenerPerimetro() -> Double`.
+
+Haga un programa que permita agregar, listar las figuras, eliminar las figuras, implimir el area total del tablero (suma de todas las areas) y el perímetro total del tablero (suma de todos los perímetros).
+
+2. Todos los alimentos que existen se definen por su nombre, el numero de gramos de proteina por gramo de alimento, el numero de gramos de carbohidratos por gramo de alimento y el numero de gramos de grasa por gramo de alimento. Se debe saber que 1gr de carbohidratos o de proteína aportan 4 calorías, y que 1gr de grasa aporta 9 calorías.
+
+Se puede consumir tres tipo de alimentos: `Chatarra`, `Saludable` y `DeDudosaProcedencia`. La comida chatarra puede ser  `mecato` o `gaseosa` (esto es una enumeracion), y puede o no venir en un empaque reciclable; la comida saludable puede ser `sopa` o `seco` (también es una enumeración) y los alimentos de dudosa procedencia tienen fecha de vencimiento.
+
+Un ser humano tiene un requerimiento mínimo calórico diario (Tasa de Metabolismo Basal) que depende de su peso, su sexo, su estatura, su edad y su nivel de actividad física:
+
+`Hombre: TMB = (10 x Peso_kg) + (6.25 x Altura_cm) - (5 x Edad_anyos) + 5`
+`Mujer: TMB = (10 x Peso_kg) + (6.25 x Altura_cm) - (5 x Edad_anyos) -161`
+
+Luego,
+
+Poco o ningún ejercicio: `Calorias necesarias = TMB x 1,2`
+Ejercicio ligero (1-3 días a la semana): `Calorias necesarias = TMB x 1,375`
+Ejercicio moderado (3-5 días a la semana): `Calorias necesarias = TMB x 1,55`
+Ejercicio fuerte (6-7 días a la semana): `Calorias necesarias = TMB x 1,725`
+
+Crear un programa que represente el ciclo de consumo y gasto calórico del mundo. Para ello, crear una estructura `Poblacion` que tenga un arreglo de elementos de tipo `Persona`. Diariamente, se debe recorrer a todas las personas de la población y restárseles el número de calorias diarias mínima. Por otro lado, se debe poder alimentar a las personas con distintos alimentos, en distintas porciones.
+
+Para que el ejercicio sea fácil, considere que la población tiene solo dos personas (inicialmente).
+
+3. Estudie el funcionamiento del protocolo `Equatable` (https://developer.apple.com/documentation/swift/equatable) y haga un programa sencillo donde compare si dos personas (con nombre, apellido y edad) son iguales.
+
+4. Estudie el funcionamiento del protocolo `Error` (https://developer.apple.com/documentation/swift/error). Agregue manejo de errores al programa del punto 2.
