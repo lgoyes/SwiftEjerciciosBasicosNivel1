@@ -431,7 +431,3 @@ La salida es:
 ```
 David
 ```
-
-## Conjuntos
-
-
