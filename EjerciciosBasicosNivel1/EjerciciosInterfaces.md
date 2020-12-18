@@ -274,3 +274,11 @@ Para que el ejercicio sea fácil, considere que la población tiene solo dos per
 3. Estudie el funcionamiento del protocolo `Equatable` (https://developer.apple.com/documentation/swift/equatable) y haga un programa sencillo donde compare si dos personas (con nombre, apellido y edad) son iguales.
 
 4. Estudie el funcionamiento del protocolo `Error` (https://developer.apple.com/documentation/swift/error). Agregue manejo de errores al programa del punto 2.
+
+5. Todos los vehículos que existen se definen por su marca, cilindrada del motor, el número de galones de combustible que le caben, y su rata de kilómetros recorridos por galón de gasolina consumido (km/galon).
+
+Existen tres tipos de vehículo: `Moto`, `Carro` y `Camión`. La moto puede ser `automática`, `semi-automática` o `manual` (esto es una enumeración), y puede tener 2 o 3 ruedas; el carro puede ser `automático` o `manual`, puede tener o no maletero recortado; y puede tener 2 o 4 puertas. El camión puede tener 6, 8 o 16 ruedas, y puede o no tener trailer desmontable.
+
+Crear un programa que represente el ciclo de consumo y recarga de combustible de los vehículos. Un vehículo puede recargar una cantidad determinada de combustible en una estación de servicio, y puede ejecutar viajes con una distancia determinada en kilómetros.
+
+Por otro lado, una empresa de transporte, que posee motos, carros y camiones, quiere saber cuántos galones se van a consumir en un viaje en caravana a determinada ciudad. Para ello, debe hacer el cálculo de consumo de combustible sobre un conjunto de vehículos.
