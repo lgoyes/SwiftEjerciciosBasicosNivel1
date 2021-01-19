@@ -282,3 +282,15 @@ Existen tres tipos de vehículo: `Moto`, `Carro` y `Camión`. La moto puede ser 
 Crear un programa que represente el ciclo de consumo y recarga de combustible de los vehículos. Un vehículo puede recargar una cantidad determinada de combustible en una estación de servicio, y puede ejecutar viajes con una distancia determinada en kilómetros.
 
 Por otro lado, una empresa de transporte, que posee motos, carros y camiones, quiere saber cuántos galones se van a consumir en un viaje en caravana a determinada ciudad. Para ello, debe hacer el cálculo de consumo de combustible sobre un conjunto de vehículos.
+
+6. La empresa `Moticos S.A.S` tiene varios empleados en su nómina: tiene `Conductores`, `Ingenieros` y `Vendedores`. Todos los empleados tienen `nombre`, `documentoIdentidad`, `edad` y `salarioNomina`; además, todos tienen una función `trabajar`, que desempeñan de una forma distinta, según la profesión.
+
+Los `Conductores` tienen `numeroMatriculaVehiculo` y al `trabajar`, recorren la ciudad en sus vehículos (basta con imprimir un mensaje). Los `ingenieros` cierto porcentaje de eficiencia en el trabajo (que es un número del 1 al 100) y al `trabajar`, se sientan en una silla a rascarse la barriga (basta con imprimir un mensaje). Los `Vendedores` tienen `promedioVentasDia` y al `trabajar`, hacen llamadas telefónicas (basta con imprimir un mensaje).
+
+Cuando alguien quiere renunciar, y se lo va a liquidar, se debe calcular el valor a pagarsele de liquidación según la profesión:
+* Si es `Conductor` se le paga el salario, multiplicado por décima parte, de la cantidad de años de su edad que estén por encima de 20. (Si la edad es 24, la cantidad de años por encima de `20` son `4`, sobre `10` son `0.4`).
+* Si es `Ingeniero`, se le paga el salario, multiplicado por el porcentaje de eficiencia en el trabajo.
+* Si es `Vendedor`, se le paga el salario, multiplicado por el promedio de ventas del día, dividido `30`.
+
+Crear un programa que facilite crear y agregar empleados a la empresa  `Moticos S.A.S`, y que permita determinar cuál es el monto a pagar en la liquidación de cada persona.
+
