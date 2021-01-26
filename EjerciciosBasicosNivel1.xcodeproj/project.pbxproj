@@ -72,6 +72,7 @@
 		0C00F1FA24926F1000ACD95E /* ejercicio18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio18.swift; sourceTree = "<group>"; };
 		0C00F1FC2492723900ACD95E /* ejercicio19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio19.swift; sourceTree = "<group>"; };
 		0C00F1FE2492777000ACD95E /* ejercicio20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio20.swift; sourceTree = "<group>"; };
+		0C2A449A25BFA6DB00A06B84 /* EjerciciosAPI.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EjerciciosAPI.md; sourceTree = "<group>"; };
 		0C3287642498DE1600C62ED5 /* ejercicio31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio31.swift; sourceTree = "<group>"; };
 		0C3287662498F86100C62ED5 /* ejercicio32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio32.swift; sourceTree = "<group>"; };
 		0C3287682498FA0F00C62ED5 /* ejercicio33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio33.swift; sourceTree = "<group>"; };
@@ -198,6 +199,7 @@
 				0C83C55E250968DA009CA372 /* EjerciciosEstructurasDeDatos.md */,
 				0C83C55F25096CAA009CA372 /* EjerciciosInterfaces.md */,
 				0C83C56025096CF1009CA372 /* EjerciciosClases.md */,
+				0C2A449A25BFA6DB00A06B84 /* EjerciciosAPI.md */,
 			);
 			path = EjerciciosBasicosNivel1;
 			sourceTree = "<group>";
